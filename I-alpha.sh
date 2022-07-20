@@ -44,18 +44,6 @@
                                        fi
                                        declare -i BVX=$ZSIZE ; declare -i BVY=0 ; declare -i BVZ=0 ;  
 #                                      ##
-                                       case $PBC in
-                                       a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                                echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                                PBC=none ;
-                                       ;;
-                                       none)
-                                       ;;
-                                       *) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                          echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                       ;;
-                                       esac
                                        echo
                           ;;
                           [0-9]*) if [ -z "$2" ] ; then
@@ -90,16 +78,6 @@
 #                                 #######    
                                   echo ' Allomorph I-alpha' ;
                                   echo " Building cristallite with arguments provided ( $XSIZE , $YSIZE , $ZSIZE ). "
-                                  case $PBC in
-                                  none) echo " PBC = $PBC , no special action regarding translational symmetry will be taken" ;
-                                        echo ' (default).' ;
-                                  ;;
-                                  *) echo " ERROR in file input.inp . Invalid value for variable PBC: $PBC ." ;
-                                     echo ' The only valid value is NONE for allomorph I-alpha. Set PBC=NONE' ;
-                                     echo ' Cellulose I-alpha crystallites are automatically delivered with' ;
-                                     echo ' translational symmetry in all crystallographic directions. ' ; exit 6 ;
-                                  ;;
-                                  esac
                                   echo ;
                           ;;
                          monolayer | mono* ) if [ -z "$2" ] ; then
@@ -130,14 +108,6 @@
                                     echo 'ARGUMENT ERROR: The third argument must be an integer greater than 0!' ; exit 9 ;
                                  fi
                                  declare -i BVX=$ZSIZE ; declare -i BVY=0 ; declare -i BVZ=0 ;  
-                                 case $PBC in
-                                 none)
-                                 ;;
-                                 *) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                    echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                    PBC=none ;
-                                 ;;
-                                 esac
                                  echo
                          ;;
                           h*|H*|-h*|-H*) usage ;
@@ -322,7 +292,7 @@ declare -i forb=0;
 declare -i upper=nfrag-1;
 declare -i logic=1
 declare -i yea;
-PBC=$(echo $PBC | tr [:upper:] [:lower:])
+#PBC=$(echo $PBC | tr [:upper:] [:lower:])
 case $1 in
 fibril)
   vmdaux='vmdaux'
@@ -449,7 +419,7 @@ grep -i 'ERROR' psfgen.log > /dev/null 2>&1  && psfgen_error || {  DOWEGOTIT='RO
 ##
 echo "REMARK  on `date` by "$USERNAME"@"$HOSTNAME" on system" > whenwhowherehow ; echo "REMARK  `uname -a`" >> whenwhowherehow
 mv -f crystal.pdb crystal.pdb.tmp && echo "REMARK generated with cellulose-builder. \
-PHASE=$PHASE , PBC=$PBC , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
+PHASE=$PHASE , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
 for(( f=0; f<nfrag; f++ ))
 do
   rm -f frag_"$f".tmp.pdb

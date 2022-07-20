@@ -35,6 +35,15 @@ FIBRIL=0  #Meng mod
 
 [ -z "$1" ] && usage || { case $1 in 
                           fibril) declare -i XSIZE=5; declare -i YSIZE=7; FIBRIL=1;
+                                       case $ORIENTATION in
+                                       110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to fibrils. " ;
+                                                echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                                ORIENTATION=100 ;
+                                       ;;
+                                       esac
+                                       echo
+
+
                                        if [ ! -z "$2" ] ; then
                                          if [ `expr $2 + 1` -a "$2" -gt 0 ] ; then
                                            declare -i ZSIZE=$2 && echo ' Allomorph I-beta' ; 
@@ -49,18 +58,6 @@ FIBRIL=0  #Meng mod
                                        fi
                                        declare -i BVX=0 ; declare -i BVY=0 ; declare -i BVZ=$ZSIZE ;  
 #                                      ##
-                                       case $PBC in
-                                       a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                                echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                                PBC=none ;
-                                       ;;
-                                       none)
-                                       ;;
-                                       *) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                          echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                       ;;
-                                       esac
                                        echo
                           ;;
                           [0-9]*) if [ -z "$2" ] ; then
@@ -95,28 +92,7 @@ FIBRIL=0  #Meng mod
 #                                 #######    
                                   echo ' Allomorph I-beta' ; 
                                   echo " Building cristallite with arguments provided ( $XSIZE , $YSIZE , $ZSIZE ). " ;
-                                  case $PBC in
-                                  #a) XSIZE=XSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                  a) XSIZE=XSIZE ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ; #Meng mod
-                                                     echo ' along the crystallographic direction `a`. ' ;
-                                                     echo ' Surfaces (1 0 0), (2 0 0) and (0 1 0) will be exposed. ' ;
-                                  ;;
-#                                  b) YSIZE=YSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                  b) YSIZE=YSIZE ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ; #Meng mod
-                                                     echo ' along the crystallographic direction `b`. ' ;
-                                                     echo ' Surfaces (1 0 0), (0 1 0) and (0 2 0) will be exposed. ' ;
-                                  ;;
-#                                  all) XSIZE=XSIZE+1 ; YSIZE=YSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                  all) XSIZE=XSIZE ; YSIZE=YSIZE ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ; #Meng mod
-                                                     echo ' along crystallographic directions `a` and `b`. ' ;
-                                                     echo ' Surfaces (1 0 0), (2 0 0), (0 1 0) and (0 2 0) will be exposed. ' ;
-                                  ;;
-                                  none) echo " PBC = $PBC , no special action regarding translational symmetry will be taken" ;
-                                        echo ' (default). Surfaces (1 0 0) and (0 1 0) will be exposed. ' ;
-                                  ;;
-                                  *) echo " ERROR in file input.inp . Invalid value for variable PBC: $PBC . Valid values are A, B, ALL, NONE. " ; exit 6 ;
-                                  ;;
-                                  esac
+
                                   echo ;
                           ;;
                          center) if [ -z "$2" ] ; then
@@ -150,18 +126,7 @@ FIBRIL=0  #Meng mod
                                  declare -i XSIZE=2 ;
 #                                ##########
                                  declare -i BVX=1 ; declare -i BVY=$2 ; declare -i BVZ=$3 ;  
-                                 case $PBC in
-                                 a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                          echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                 ;;
-                                 none)
-                                 ;;
-                                 *) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                    echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                    PBC=none ;
-                                 ;;
-                                 esac
+
                                  echo
                          ;;
                          origin) if [ -z "$2" ] ; then
@@ -194,18 +159,6 @@ FIBRIL=0  #Meng mod
                                  declare -i XSIZE=2 ;
 #                                ##########
                                  declare -i BVX=1 ; declare -i BVY=$2 ; declare -i BVZ=$3 ;  
-                                 case $PBC in
-                                 a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                          echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                 ;;
-                                 none)
-                                 ;;
-                                 *) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                    echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                    PBC=none ;
-                                 ;;
-                                 esac
                                  echo
                          ;;
                           h*|H*|-h*|-H*) usage ;
@@ -276,11 +229,15 @@ do
     if [ $ORIENTATION -eq 100 ]
     then
       echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I"" >> $AUXSCRIPT
+      echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
     elif [ $ORIENTATION -eq 110 ]
     then
       echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I" + "$J"" >> $AUXSCRIPT
+      echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
+## Need to separately treat it based on oddness of the numbers
+
+
     fi
-    echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
     echo "fc"$NUM"(:,3) = "$FC"(:,3)"        >> $AUXSCRIPT
     echo                                     >> $AUXSCRIPT
     echo "uc"$NUM"(:,1) = fc"$NUM"(:,1)*a + fc"$NUM"(:,2)*b*cosg" >> \
@@ -293,8 +250,17 @@ do
     NUM=$NUM+1
   done
 done
+################### Meng mod: Consider the box size of (110) Miller index #########
 echo "basisvector1 = [ "$BVX"*a 0 0 ]" >> $AUXSCRIPT
-echo "basisvector2 = [ "$BVY"*b*cosg  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
+if [ $ORIENTATION -eq 100 ]
+then
+  echo "basisvector2 = [ "$BVY"*b*cosg  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
+elif [ $ORIENTATION -eq 110 ]
+then
+  echo "basisvector2 = [ "$BVY"*(b*cosg+a)  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
+fi
+#############################################################################
+
 echo "basisvector3 = [ 0  0  "$BVZ"*c ]" >> $AUXSCRIPT
 echo "save 'basisvectors' basisvector1 basisvector2 basisvector3 " >> $AUXSCRIPT
 echo "clear basisvector1 basisvector2 basisvector3 " >> $AUXSCRIPT
@@ -525,7 +491,7 @@ declare -i forb=0;
 declare -i upper=nfrag-1;
 declare -i logic=1
 declare -i yea;
-PBC=$(echo $PBC | tr [:upper:] [:lower:])
+#PBC=$(echo $PBC | tr [:upper:] [:lower:])
 case $1 in
 [0-9]*)
   echo ""
@@ -671,7 +637,7 @@ grep -i 'ERROR' psfgen.log > /dev/null 2>&1  && psfgen_error || {  DOWEGOTIT='RO
 ##
 echo "REMARK  on `date` by "$USERNAME"@"$HOSTNAME" on system" > whenwhowherehow ; echo "REMARK  `uname -a`" >> whenwhowherehow
 mv -f crystal.pdb crystal.pdb.tmp && echo "REMARK generated with cellulose-builder. \
-PHASE=$PHASE , PBC=$PBC , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
+PHASE=$PHASE , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
 
 for(( f=0; f<nfrag; f++ ))
 do

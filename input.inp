@@ -1,4 +1,3 @@
-PHASE=I-beta   # Accepted values are: I-ALPHA , I-BETA , II , III_I .
-PBC=ALL       # Accepted values are: NONE (default), A , B , ALL .
+PHASE=I-alpha   # Accepted values are: I-ALPHA , I-BETA , II , III_I .
 PCB_c=TRUE    # Accepted values are: FALSE , TRUE .
-ORIENTATION=110 # accepted values are: 100, 110
+ORIENTATION=100 # accepted values are: 100, 110

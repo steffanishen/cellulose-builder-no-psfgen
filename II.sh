@@ -28,8 +28,12 @@
 #    You should have received a copy of the GNU General Public License         #
 #    along with cellulose-builder. If not, see <http://www.gnu.org/licenses/>. #
 ################################################################################
+
+
+FIBRIL=0  #Meng mod
+
 [ -z "$1" ] && usage || { case $1 in 
-                          fibril) declare -i XSIZE=7; declare -i YSIZE=5;
+                          fibril) declare -i XSIZE=7; declare -i YSIZE=5;  FIBRIL=1;
                                        if [ ! -z "$2" ] ; then
                                          if [ `expr $2 + 1` -a "$2" -gt 0 ] ; then
                                            declare -i ZSIZE=$2 && echo ' Allomorph II-mercerized' ; 
@@ -44,18 +48,6 @@
                                        fi
                                        declare -i BVX=0 ; declare -i BVY=0 ; declare -i BVZ=$ZSIZE ;  
 #                                      ##
-                                       case $PBC in
-                                       a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                                echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                                PBC=none ;
-                                       ;;
-                                       none)
-                                       ;;
-                                       *) echo " WARNING: variable PBC = $PBC . This does not apply to fibrils. " ;
-                                          echo '          Using default value for fibrils, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                       ;;
-                                       esac
                                        echo
                           ;;
                           [0-9]*) if [ -z "$2" ] ; then
@@ -90,25 +82,6 @@
 #                                 #######    
                                   echo ' Allomorph II (mercerized)' ; 
                                   echo " Building cristallite with arguments provided ( $XSIZE , $YSIZE , $ZSIZE ). " ;
-                                  case $PBC in
-                                  a) XSIZE=XSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                                     echo ' along the crystallographic direction `a`. ' ;
-#                                                     echo ' Surfaces (1 0 0), (2 0 0) and (0 1 0) will be exposed. ' ;
-                                  ;;
-                                  b) YSIZE=YSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                                     echo ' along the crystallographic direction `b`. ' ;
-#                                                     echo ' Surfaces (1 0 0), (0 1 0) and (0 2 0) will be exposed. ' ;
-                                  ;;
-                                  all) XSIZE=XSIZE+1 ; YSIZE=YSIZE+1 ; echo " PBC = $PBC , special actions will be taken to impose translational symmetry" ;
-                                                     echo ' along crystallographic directions `a` and `b`. ' ;
-#                                                     echo ' Surfaces (1 0 0), (2 0 0), (0 1 0) and (0 2 0) will be exposed. ' ;
-                                  ;;
-                                  none) echo " PBC = $PBC , no special action regarding translational symmetry will be taken" ;
-                                        echo ' (default). ' ;
-                                  ;;
-                                  *) echo " ERROR in file input.inp . Invalid value for variable PBC: $PBC . Valid values are A, B, ALL, NONE. " ; exit 6 ;
-                                  ;;
-                                  esac
                                   echo ;
                           ;;
                          center) if [ -z "$2" ] ; then
@@ -142,18 +115,6 @@
                                  declare -i YSIZE=2 ;
 #                                ##########
                                  declare -i BVX=$2 ; declare -i BVY=1 ; declare -i BVZ=$3 ;  
-                                 case $PBC in
-                                 a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                          echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                 ;;
-                                 none)
-                                 ;;
-                                 *) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                    echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                    PBC=none ;
-                                 ;;
-                                 esac
                                  echo
                          ;;
                          origin) if [ -z "$2" ] ; then
@@ -186,18 +147,6 @@
                                  declare -i YSIZE=2 ;
 #                                ##########
                                  declare -i BVX=$2 ; declare -i BVY=1 ; declare -i BVZ=$3 ;  
-                                 case $PBC in
-                                 a|b|all) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                          echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                          PBC=none ;
-                                 ;;
-                                 none)
-                                 ;;
-                                 *) echo " WARNING: variable PBC = $PBC . This does not apply to monolayers. " ;
-                                    echo '          Using default value for monolayers, i.e., PBC = NONE . ' ;
-                                    PBC=none ;
-                                 ;;
-                                 esac
                                  echo
                          ;;
                           h*|H*|-h*|-H*) usage ;
@@ -227,6 +176,14 @@ echo "load $ASY" > $AUXSCRIPT
 echo "image(:,1) = -"$ASY"(:,1)" >> $AUXSCRIPT
 echo "image(:,2) = -"$ASY"(:,2)" >> $AUXSCRIPT
 echo "image(:,3) =  "$ASY"(:,3) + 0.5" >> $AUXSCRIPT
+
+if [ $FIBRIL -eq 0 ]
+then
+  echo "half = length(image)/2" >> $AUXSCRIPT
+  echo "image(half + 1:half*2,1) += 1.0  " >> $AUXSCRIPT
+  echo "image(half + 1:half*2,2) += 1.0  " >> $AUXSCRIPT
+fi
+
 echo "save '"$FRACT"' "$ASY" image" >> $AUXSCRIPT
 octave $AUXSCRIPT > /dev/null 2>&1 || octave_error ;
 rm -f $AUXSCRIPT
@@ -366,28 +323,45 @@ done
 rm -f $SED_AUX
 ###################################################################### 
 cnum=1
-for (( J=1; J<=YSIZE; J++ ))
-do
-  for (( I=1; I<=XSIZE; I++))
+
+#cp uc1 backup_uc1_0.xyz #Meng debug
+
+if [ $FIBRIL -eq 1 ] #Meng mod
+then #Meng mod
+
+  for (( J=1; J<=YSIZE; J++ ))
   do
-    [ "$I" -eq "1" -a "$J" -ne "$YSIZE" ] && sed -i -e '55,72d' uc"$cnum";
-    [ "$J" -eq "1" -a "$I" -ne "1" -a "$I" -ne "$XSIZE" ] && sed -i -e \
-                                                         '55,72d' uc"$cnum" ;
-    [ "$I" -eq "$XSIZE" -a "$J" -ne "1" ] && sed -i -e '19,36d' uc"$cnum";
-    [ "$J" -eq "$YSIZE" -a "$I" -ne "1" -a "$I" -ne "$XSIZE" ] && sed -i -e \
-                                                            '19,36d' uc"$cnum" ;
-    [ "$I" -eq "1" -a "$J" -eq "$YSIZE" ] && sed -i -e '19,36d;55,72d' uc"$cnum";
-    [ "$J" -eq "1" -a "$I" -eq "$XSIZE" ] && sed -i -e '19,36d;55,72d' uc"$cnum";
-    cnum=$cnum+1
+    for (( I=1; I<=XSIZE; I++))
+    do
+      [ "$I" -eq "1" -a "$J" -ne "$YSIZE" ] && sed -i -e '55,72d' uc"$cnum";
+      [ "$J" -eq "1" -a "$I" -ne "1" -a "$I" -ne "$XSIZE" ] && sed -i -e \
+                                                           '55,72d' uc"$cnum" ;
+      [ "$I" -eq "$XSIZE" -a "$J" -ne "1" ] && sed -i -e '19,36d' uc"$cnum";
+      [ "$J" -eq "$YSIZE" -a "$I" -ne "1" -a "$I" -ne "$XSIZE" ] && sed -i -e \
+                                                              '19,36d' uc"$cnum" ;
+      [ "$I" -eq "1" -a "$J" -eq "$YSIZE" ] && sed -i -e '19,36d;55,72d' uc"$cnum";
+      [ "$J" -eq "1" -a "$I" -eq "$XSIZE" ] && sed -i -e '19,36d;55,72d' uc"$cnum";
+      cnum=$cnum+1
+    done
   done
-done
+
+fi
 declare -i ALLATOMS
 declare -i LESSATOMS
 declare -i NATOMS
 ALLATOMS=XSIZE*YSIZE*72
 LESSATOMS=(XSIZE+XSIZE-1+YSIZE+YSIZE-1)
 LESSATOMS=LESSATOMS*18
-NATOMS=ALLATOMS-LESSATOMS
+
+if [ $FIBRIL -eq 1 ] # Meng mod
+then #Meng mod
+  NATOMS=ALLATOMS-LESSATOMS
+else #Meng mod
+  NATOMS=ALLATOMS #Meng mod
+fi #Meng mod
+
+#NATOMS=ALLATOMS-LESSATOMS
+
 list=`for (( cnum=1; cnum<NUM; cnum++ )); do echo "uc"$cnum""; done`
 echo "$NATOMS 1" > $CRYSTAL
 echo      >> $CRYSTAL
@@ -465,96 +439,8 @@ declare -i forb=0;
 declare -i upper=nfrag-1;
 declare -i logic=1
 declare -i yea;
-PBC=$(echo $PBC | tr [:upper:] [:lower:])
 case $1 in
 [0-9]*)
-  case $PBC in
-    all|xyz)
-    for (( b=1; b<YSIZE; b++ ));
-    do
-      forb=( XSIZE+XSIZE-1 )*b;  forb=forb-1;
-      forbidden="$forbidden $forb";
-    done
-  #
-    for (( b=1; b<=XSIZE; b++ ));
-    do
-      a=a-1; 
-      forbidden="$forbidden $a"
-    done
-  #
-    for num in `seq 0 $upper`
-    do 
-      logic=1
-      for forbid in $forbidden
-      do 
-        [ "$num" -eq "$forbid" ] && logic=0 
-      done
-      [ $logic -eq 1 ] && remainder="$remainder $num"
-    done
-    vmdaux='vmdaux'
-    echo "set sel [atomselect top \"fragment ${remainder}\"]" > $vmdaux
-    echo '$sel writexyz crystal_PBC_ALL.xyz' >> $vmdaux
-    echo 'quit' >> $vmdaux
-    vmd -dispdev none "$CRYSTAL" -e "$vmdaux" > vmd_PBC_LOG.log 2>&1  && rm -f $CRYSTAL || vmd_error ;
-    endless_failsafe crystal_PBC_ALL.xyz ; 
-    mv -f crystal_PBC_ALL.xyz crystal.xyz
-    nfrag=`echo $remainder | wc -w`
-    ;;
-  
-    a)
-    for (( b=1; b<YSIZE; b++ ));
-    do
-      forb=( XSIZE+XSIZE-1 )*b;  forb=forb-1;
-      forbidden="$forbidden $forb";
-    done
-  #
-    forbidden="$forbidden $upper"
-  #
-    for num in `seq 0 $upper`
-    do 
-      logic=1
-      for forbid in $forbidden
-      do 
-        [ "$num" -eq "$forbid" ] && logic=0 
-      done
-      [ $logic -eq 1 ] && remainder="$remainder $num"
-    done
-    vmdaux='vmdaux'
-    echo "set sel [atomselect top \"fragment ${remainder}\"]" > $vmdaux
-    echo '$sel writexyz crystal_PBC_ALL.xyz' >> $vmdaux
-    echo 'quit' >> $vmdaux
-    vmd -dispdev none "$CRYSTAL" -e "$vmdaux" > vmd_PBC_LOG.log 2>&1  && rm -f $CRYSTAL || vmd_error ;
-    endless_failsafe crystal_PBC_ALL.xyz ; 
-    mv -f crystal_PBC_ALL.xyz crystal.xyz
-    nfrag=`echo $remainder | wc -w`
-    ;;
-  
-    b)
-    for (( b=1; b<=XSIZE; b++ ));
-    do
-      a=a-1; 
-      forbidden="$forbidden $a"
-    done
-  #
-    for num in `seq 0 $upper`
-    do 
-      logic=1
-      for forbid in $forbidden
-      do 
-        [ "$num" -eq "$forbid" ] && logic=0 
-      done
-      [ $logic -eq 1 ] && remainder="$remainder $num"
-    done
-    vmdaux='vmdaux'
-    echo "set sel [atomselect top \"fragment ${remainder}\"]" > $vmdaux
-    echo '$sel writexyz crystal_PBC_ALL.xyz' >> $vmdaux
-    echo 'quit' >> $vmdaux
-    vmd -dispdev none "$CRYSTAL" -e "$vmdaux" > vmd_PBC_LOG.log 2>&1  && rm -f $CRYSTAL || vmd_error ;
-    endless_failsafe crystal_PBC_ALL.xyz ; 
-    mv -f crystal_PBC_ALL.xyz crystal.xyz
-    nfrag=`echo $remainder | wc -w`
-    ;;
-  esac
 ;;
 fibril)
   vmdaux='vmdaux'
@@ -744,7 +630,7 @@ grep -i 'ERROR' psfgen.log > /dev/null 2>&1  && psfgen_error || {  DOWEGOTIT='RO
 ##
 echo "REMARK  on `date` by "$USERNAME"@"$HOSTNAME" on system" > whenwhowherehow ; echo "REMARK  `uname -a`" >> whenwhowherehow
 mv -f crystal.pdb crystal.pdb.tmp && echo "REMARK generated with cellulose-builder. \
-PHASE=$PHASE , PBC=$PBC , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
+PHASE=$PHASE , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
 for(( f=0; f<nfrag; f++ ))
 do
   rm -f frag_"$f".tmp.pdb

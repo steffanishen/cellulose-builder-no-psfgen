@@ -64,16 +64,6 @@
 #                                 #######    
                                   echo ' Allomorph III_I' ; 
                                   echo " Building cristallite with arguments provided ( $XSIZE , $YSIZE , $ZSIZE ). " ;
-                                  case $PBC in
-                                  none) echo " PBC = $PBC , no special action regarding translational symmetry will be taken" ;
-                                        echo ' (default). ' ;
-                                  ;;
-                                  *) echo " ERROR in file input.inp . Invalid value for variable PBC: $PBC ." ;
-                                     echo ' The only valid value is NONE for allomorph III_I. Set PBC=NONE' ;
-                                     echo ' Cellulose III_I crystallites are automatically delivered with' ;
-                                     echo ' translational symmetry in all crystallographic directions. ' ; exit 6 ;
-                                  ;;
-                                  esac
                                   echo ;
                           ;;
                           mono*) echo ' Sorry, monolayers not supported for allomorph III_I' ; exit 6 ;
@@ -383,7 +373,7 @@ grep -i 'ERROR' psfgen.log > /dev/null 2>&1  && psfgen_error || { DOWEGOTIT='ROG
 ##
 echo "REMARK  on `date` by "$USERNAME"@"$HOSTNAME" on system" > whenwhowherehow ; echo "REMARK  `uname -a`" >> whenwhowherehow
 mv -f crystal.pdb crystal.pdb.tmp && echo "REMARK generated with cellulose-builder. \
-PHASE=$PHASE , PBC=$PBC , PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
+PHASE=$PHASE ,  PCB_c=$PCB_c ; ( $1 , $2 , $3 )." > crystal.pdb && cat whenwhowherehow basisvectors crystal.pdb.tmp | sed -e '/^$/d' >> crystal.pdb ;
 for(( f=0; f<nfrag; f++ ))
 do
   rm -f frag_"$f".tmp.pdb
