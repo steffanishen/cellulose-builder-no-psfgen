@@ -157,10 +157,11 @@ installed and that they are in your PATH."; exit 1; } ;
 # sourcing input
 source input.inp && { echo ; } || { echo ' WARNING: Cellulose builder was not able to source `input.inp`.'; \
                     echo '          Assuming default values for the following variables: ' ; \
-                    PHASE=I_BETA ; PBC=none ; PCB_c=FALSE ; \
+                    PHASE=I_BETA ; PBC=none ; PCB_c=FALSE ; ORIENTATION=100; \
                     echo "          PHASE = $PHASE " ; \
                     echo "          PBC = $PBC " ; \
-                    echo "          PCB_c = $PCB_c " ; echo ; } ;
+                    echo "          PCB_c = $PCB_c " ; echo ; \
+                    echo "          ORIENTATION = $ORIENTATION " ; echo; } ; #Meng mod
 PHASE=$(echo $PHASE | tr [:upper:] [:lower:]) ;
 PBC=$(echo $PBC | tr [:upper:] [:lower:]) ;
 PCB_c=$(echo $PCB_c | tr [:upper:] [:lower:]) ;

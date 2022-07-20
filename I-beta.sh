@@ -259,11 +259,27 @@ echo 'sing = sin(gamma)' >> $AUXSCRIPT
 declare -i I=0
 declare -i J=0
 declare -i NUM=1
+
+if [ $ORIENTATION -eq 100 ]
+then
+  echo "Miller index: (1 0 0)"
+elif [ $ORIENTATION -eq 110 ]
+then
+  echo "Miller index: (1 1 0)"
+fi
+
+
 for (( J=0; J<YSIZE; J++ ))
 do
   for (( I=0; I<XSIZE; I++))
   do
-    echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I"" >> $AUXSCRIPT
+    if [ $ORIENTATION -eq 100 ]
+    then
+      echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I"" >> $AUXSCRIPT
+    elif [ $ORIENTATION -eq 110 ]
+    then
+      echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I" + "$J"" >> $AUXSCRIPT
+    fi
     echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
     echo "fc"$NUM"(:,3) = "$FC"(:,3)"        >> $AUXSCRIPT
     echo                                     >> $AUXSCRIPT
