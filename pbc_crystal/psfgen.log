@@ -1,0 +1,152 @@
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs, ISA dispatch enabled.
+Info) Dynamically loaded 1 plugins in directory:
+Info) /Applications/VMD_1.9.4a57-arm64-Rev12.app/Contents/vmd/plugins/MACOSXARM64/molfile
+2.0
+psfgen) reading topology file ./bGLC.top
+
+psfgen)  $Id: top_allxx_sugar.inp,v 1.98 2011-07-20 15:03:53 prabhu Exp $
+psfgen) >>>>>>>>>>>> All-hydrogen topologies used in the <<<<<<<<<<<<<<<<
+psfgen) >>>>> development of the CHARMM carbohydrate  force field<<<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>> June 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<<
+psfgen) >>>>>>>>>> via the CHARMM web site: www.charmm.org <<<<<<<<<<<<<<
+psfgen) >>>>>>>>>>>>>>> parameter set discussion forum <<<<<<<<<<<<<<<<<<
+psfgen) 
+psfgen) Created by CHARMM version 32 1
+psfgen) building segment M0
+psfgen) reading residues from pdb file ./frag_0.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M1
+psfgen) reading residues from pdb file ./frag_1.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M2
+psfgen) reading residues from pdb file ./frag_2.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M3
+psfgen) reading residues from pdb file ./frag_3.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M4
+psfgen) reading residues from pdb file ./frag_4.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M5
+psfgen) reading residues from pdb file ./frag_5.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M6
+psfgen) reading residues from pdb file ./frag_6.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M7
+psfgen) reading residues from pdb file ./frag_7.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) reading coordinates from pdb file frag_0.tmp.pdb for segment M0
+psfgen) reading coordinates from pdb file frag_1.tmp.pdb for segment M1
+psfgen) reading coordinates from pdb file frag_2.tmp.pdb for segment M2
+psfgen) reading coordinates from pdb file frag_3.tmp.pdb for segment M3
+psfgen) reading coordinates from pdb file frag_4.tmp.pdb for segment M4
+psfgen) reading coordinates from pdb file frag_5.tmp.pdb for segment M5
+psfgen) reading coordinates from pdb file frag_6.tmp.pdb for segment M6
+psfgen) reading coordinates from pdb file frag_7.tmp.pdb for segment M7
+psfgen) Info: guessing coordinates for 0 atoms (0 non-hydrogen)
+psfgen) Info: writing psf file crystal.psf
+psfgen) total of 672 atoms
+psfgen) total of 704 bonds
+psfgen) total of 1312 angles
+psfgen) total of 2112 dihedrals
+psfgen) total of 0 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) Structure requires EXTended PSF format
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file crystal.pdb
+psfgen) Info: pdb file complete.
+invalid command name "ENDMOL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.

@@ -1,0 +1,27 @@
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs, ISA dispatch enabled.
+Info) Dynamically loaded 1 plugins in directory:
+Info) /Applications/VMD_1.9.4a57-arm64-Rev12.app/Contents/vmd/plugins/MACOSXARM64/molfile
+Info) File loading in progress, please wait.
+Info) Using plugin xyz for structure file crystal.xyz
+Info) Using plugin xyz for coordinates from file crystal.xyz
+Info) Determining bond structure from distance search ...
+Info) Finished with coordinate file crystal.xyz.
+Info) Analyzing structure ...
+Info)    Atoms: 4200
+Info)    Bonds: 4350
+Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 50
+Info)    Waters: 0
+Info)    Segments: 1
+Info)    Fragments: 50   Protein: 0   Nucleic: 0
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.
+vmd > 

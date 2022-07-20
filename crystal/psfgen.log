@@ -1,0 +1,641 @@
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 8 CPUs, ISA dispatch enabled.
+Info) Dynamically loaded 1 plugins in directory:
+Info) /Applications/VMD_1.9.4a57-arm64-Rev12.app/Contents/vmd/plugins/MACOSXARM64/molfile
+2.0
+psfgen) reading topology file ./bGLC.top
+
+psfgen)  $Id: top_allxx_sugar.inp,v 1.98 2011-07-20 15:03:53 prabhu Exp $
+psfgen) >>>>>>>>>>>> All-hydrogen topologies used in the <<<<<<<<<<<<<<<<
+psfgen) >>>>> development of the CHARMM carbohydrate  force field<<<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>> June 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<<
+psfgen) >>>>>>>>>> via the CHARMM web site: www.charmm.org <<<<<<<<<<<<<<
+psfgen) >>>>>>>>>>>>>>> parameter set discussion forum <<<<<<<<<<<<<<<<<<
+psfgen) 
+psfgen) Created by CHARMM version 32 1
+psfgen) building segment M0
+psfgen) reading residues from pdb file ./frag_0.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M1
+psfgen) reading residues from pdb file ./frag_1.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M2
+psfgen) reading residues from pdb file ./frag_2.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M3
+psfgen) reading residues from pdb file ./frag_3.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M4
+psfgen) reading residues from pdb file ./frag_4.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M5
+psfgen) reading residues from pdb file ./frag_5.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M6
+psfgen) reading residues from pdb file ./frag_6.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M7
+psfgen) reading residues from pdb file ./frag_7.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M8
+psfgen) reading residues from pdb file ./frag_8.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M9
+psfgen) reading residues from pdb file ./frag_9.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M10
+psfgen) reading residues from pdb file ./frag_10.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M11
+psfgen) reading residues from pdb file ./frag_11.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M12
+psfgen) reading residues from pdb file ./frag_12.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M13
+psfgen) reading residues from pdb file ./frag_13.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M14
+psfgen) reading residues from pdb file ./frag_14.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M15
+psfgen) reading residues from pdb file ./frag_15.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M16
+psfgen) reading residues from pdb file ./frag_16.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M17
+psfgen) reading residues from pdb file ./frag_17.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M18
+psfgen) reading residues from pdb file ./frag_18.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M19
+psfgen) reading residues from pdb file ./frag_19.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M20
+psfgen) reading residues from pdb file ./frag_20.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M21
+psfgen) reading residues from pdb file ./frag_21.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M22
+psfgen) reading residues from pdb file ./frag_22.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M23
+psfgen) reading residues from pdb file ./frag_23.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M24
+psfgen) reading residues from pdb file ./frag_24.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M25
+psfgen) reading residues from pdb file ./frag_25.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M26
+psfgen) reading residues from pdb file ./frag_26.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M27
+psfgen) reading residues from pdb file ./frag_27.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M28
+psfgen) reading residues from pdb file ./frag_28.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M29
+psfgen) reading residues from pdb file ./frag_29.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M30
+psfgen) reading residues from pdb file ./frag_30.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M31
+psfgen) reading residues from pdb file ./frag_31.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M32
+psfgen) reading residues from pdb file ./frag_32.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M33
+psfgen) reading residues from pdb file ./frag_33.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M34
+psfgen) reading residues from pdb file ./frag_34.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M35
+psfgen) reading residues from pdb file ./frag_35.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M36
+psfgen) reading residues from pdb file ./frag_36.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M37
+psfgen) reading residues from pdb file ./frag_37.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M38
+psfgen) reading residues from pdb file ./frag_38.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M39
+psfgen) reading residues from pdb file ./frag_39.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M40
+psfgen) reading residues from pdb file ./frag_40.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M41
+psfgen) reading residues from pdb file ./frag_41.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M42
+psfgen) reading residues from pdb file ./frag_42.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M43
+psfgen) reading residues from pdb file ./frag_43.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M44
+psfgen) reading residues from pdb file ./frag_44.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M45
+psfgen) reading residues from pdb file ./frag_45.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M46
+psfgen) reading residues from pdb file ./frag_46.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M47
+psfgen) reading residues from pdb file ./frag_47.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M48
+psfgen) reading residues from pdb file ./frag_48.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) building segment M49
+psfgen) reading residues from pdb file ./frag_49.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+Info: generating structure...
+segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) reading coordinates from pdb file frag_0.tmp.pdb for segment M0
+psfgen) reading coordinates from pdb file frag_1.tmp.pdb for segment M1
+psfgen) reading coordinates from pdb file frag_2.tmp.pdb for segment M2
+psfgen) reading coordinates from pdb file frag_3.tmp.pdb for segment M3
+psfgen) reading coordinates from pdb file frag_4.tmp.pdb for segment M4
+psfgen) reading coordinates from pdb file frag_5.tmp.pdb for segment M5
+psfgen) reading coordinates from pdb file frag_6.tmp.pdb for segment M6
+psfgen) reading coordinates from pdb file frag_7.tmp.pdb for segment M7
+psfgen) reading coordinates from pdb file frag_8.tmp.pdb for segment M8
+psfgen) reading coordinates from pdb file frag_9.tmp.pdb for segment M9
+psfgen) reading coordinates from pdb file frag_10.tmp.pdb for segment M10
+psfgen) reading coordinates from pdb file frag_11.tmp.pdb for segment M11
+psfgen) reading coordinates from pdb file frag_12.tmp.pdb for segment M12
+psfgen) reading coordinates from pdb file frag_13.tmp.pdb for segment M13
+psfgen) reading coordinates from pdb file frag_14.tmp.pdb for segment M14
+psfgen) reading coordinates from pdb file frag_15.tmp.pdb for segment M15
+psfgen) reading coordinates from pdb file frag_16.tmp.pdb for segment M16
+psfgen) reading coordinates from pdb file frag_17.tmp.pdb for segment M17
+psfgen) reading coordinates from pdb file frag_18.tmp.pdb for segment M18
+psfgen) reading coordinates from pdb file frag_19.tmp.pdb for segment M19
+psfgen) reading coordinates from pdb file frag_20.tmp.pdb for segment M20
+psfgen) reading coordinates from pdb file frag_21.tmp.pdb for segment M21
+psfgen) reading coordinates from pdb file frag_22.tmp.pdb for segment M22
+psfgen) reading coordinates from pdb file frag_23.tmp.pdb for segment M23
+psfgen) reading coordinates from pdb file frag_24.tmp.pdb for segment M24
+psfgen) reading coordinates from pdb file frag_25.tmp.pdb for segment M25
+psfgen) reading coordinates from pdb file frag_26.tmp.pdb for segment M26
+psfgen) reading coordinates from pdb file frag_27.tmp.pdb for segment M27
+psfgen) reading coordinates from pdb file frag_28.tmp.pdb for segment M28
+psfgen) reading coordinates from pdb file frag_29.tmp.pdb for segment M29
+psfgen) reading coordinates from pdb file frag_30.tmp.pdb for segment M30
+psfgen) reading coordinates from pdb file frag_31.tmp.pdb for segment M31
+psfgen) reading coordinates from pdb file frag_32.tmp.pdb for segment M32
+psfgen) reading coordinates from pdb file frag_33.tmp.pdb for segment M33
+psfgen) reading coordinates from pdb file frag_34.tmp.pdb for segment M34
+psfgen) reading coordinates from pdb file frag_35.tmp.pdb for segment M35
+psfgen) reading coordinates from pdb file frag_36.tmp.pdb for segment M36
+psfgen) reading coordinates from pdb file frag_37.tmp.pdb for segment M37
+psfgen) reading coordinates from pdb file frag_38.tmp.pdb for segment M38
+psfgen) reading coordinates from pdb file frag_39.tmp.pdb for segment M39
+psfgen) reading coordinates from pdb file frag_40.tmp.pdb for segment M40
+psfgen) reading coordinates from pdb file frag_41.tmp.pdb for segment M41
+psfgen) reading coordinates from pdb file frag_42.tmp.pdb for segment M42
+psfgen) reading coordinates from pdb file frag_43.tmp.pdb for segment M43
+psfgen) reading coordinates from pdb file frag_44.tmp.pdb for segment M44
+psfgen) reading coordinates from pdb file frag_45.tmp.pdb for segment M45
+psfgen) reading coordinates from pdb file frag_46.tmp.pdb for segment M46
+psfgen) reading coordinates from pdb file frag_47.tmp.pdb for segment M47
+psfgen) reading coordinates from pdb file frag_48.tmp.pdb for segment M48
+psfgen) reading coordinates from pdb file frag_49.tmp.pdb for segment M49
+psfgen) Info: guessing coordinates for 150 atoms (50 non-hydrogen)
+psfgen) Info: writing psf file crystal.psf
+psfgen) total of 4350 atoms
+psfgen) total of 4500 bonds
+psfgen) total of 8250 angles
+psfgen) total of 13200 dihedrals
+psfgen) total of 0 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) Structure requires EXTended PSF format
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file crystal.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+invalid command name "ENDMOL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
+Info) Exiting normally.

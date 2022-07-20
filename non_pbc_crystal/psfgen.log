@@ -1,0 +1,114 @@
+psfgen) reading topology file ./bGLC.top
+
+psfgen)  $Id: top_allxx_sugar.inp,v 1.98 2011-07-20 15:03:53 prabhu Exp $
+psfgen) >>>>>>>>>>>> All-hydrogen topologies used in the <<<<<<<<<<<<<<<<
+psfgen) >>>>> development of the CHARMM carbohydrate  force field<<<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>> June 2009 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen) >>>>>>>> Direct comments to Alexander D. MacKerell Jr. <<<<<<<<<<
+psfgen) >>>>>>>>>> via the CHARMM web site: www.charmm.org <<<<<<<<<<<<<<
+psfgen) >>>>>>>>>>>>>>> parameter set discussion forum <<<<<<<<<<<<<<<<<<
+psfgen) 
+psfgen) Created by CHARMM version 32 1
+psfgen) building segment M0
+psfgen) reading residues from pdb file ./frag_0.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M1
+psfgen) reading residues from pdb file ./frag_1.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M2
+psfgen) reading residues from pdb file ./frag_2.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M3
+psfgen) reading residues from pdb file ./frag_3.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M4
+psfgen) reading residues from pdb file ./frag_4.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M5
+psfgen) reading residues from pdb file ./frag_5.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M6
+psfgen) reading residues from pdb file ./frag_6.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) building segment M7
+psfgen) reading residues from pdb file ./frag_7.tmp.pdb
+psfgen) extracted 4 residues from pdb file
+psfgen) Info: generating structure...segment complete.
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) applying patch 14BB to 2 residues
+psfgen) regenerating all angles
+psfgen) regenerating all dihedrals
+psfgen) reading coordinates from pdb file frag_0.tmp.pdb for segment M0
+psfgen) reading coordinates from pdb file frag_1.tmp.pdb for segment M1
+psfgen) reading coordinates from pdb file frag_2.tmp.pdb for segment M2
+psfgen) reading coordinates from pdb file frag_3.tmp.pdb for segment M3
+psfgen) reading coordinates from pdb file frag_4.tmp.pdb for segment M4
+psfgen) reading coordinates from pdb file frag_5.tmp.pdb for segment M5
+psfgen) reading coordinates from pdb file frag_6.tmp.pdb for segment M6
+psfgen) reading coordinates from pdb file frag_7.tmp.pdb for segment M7
+psfgen) Info: guessing coordinates for 24 atoms (8 non-hydrogen)
+psfgen) Info: writing psf file crystal.psf
+psfgen) total of 696 atoms
+psfgen) total of 720 bonds
+psfgen) total of 1320 angles
+psfgen) total of 2112 dihedrals
+psfgen) total of 0 impropers
+psfgen) Structure requires EXTended PSF format
+psfgen) total of 0 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file crystal.pdb
+psfgen) Info: Atoms with guessed coordinates will have occupancy of 0.0.
+psfgen) Info: pdb file complete.
+M0:4 M0:3 
+M0:3 M0:2 
+M0:2 M0:1 
+M1:4 M1:3 
+M1:3 M1:2 
+M1:2 M1:1 
+M2:4 M2:3 
+M2:3 M2:2 
+M2:2 M2:1 
+M3:4 M3:3 
+M3:3 M3:2 
+M3:2 M3:1 
+M4:4 M4:3 
+M4:3 M4:2 
+M4:2 M4:1 
+M5:4 M5:3 
+M5:3 M5:2 
+M5:2 M5:1 
+M6:4 M6:3 
+M6:3 M6:2 
+M6:2 M6:1 
+M7:4 M7:3 
+M7:3 M7:2 
+M7:2 M7:1 
