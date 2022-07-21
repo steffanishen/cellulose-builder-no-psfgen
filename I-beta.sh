@@ -105,6 +105,16 @@ FIBRIL=0  #Meng mod
                                     echo '                as arguments after the string `center`.' ; exit 9;
                                  fi
 #                                ####
+
+                                 case $ORIENTATION in
+                                   110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to monolayers. " ;
+                                        echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                        ORIENTATION=100 ;
+                                   ;;
+                                 esac
+                                 echo
+
+
                                  if [ `expr $2 + 1` -a "$2" -gt 1 ] ; then
                                     declare -i YSIZE=$2
                                     YSIZE=YSIZE+1 ;
@@ -139,6 +149,15 @@ FIBRIL=0  #Meng mod
                                     echo '                as arguments after the string `origin`.' ; exit 9;
                                  fi
 #                                ####
+
+                                 case $ORIENTATION in
+                                   110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to monolayers. " ;
+                                        echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                        ORIENTATION=100 ;
+                                   ;;
+                                 esac
+                                 echo
+
                                  if [ `expr $2 + 1` -a "$2" -gt 1 ] ; then
                                     declare -i YSIZE=$2
                                  else
@@ -511,7 +530,8 @@ center)
   center_frag_list='' ;
   for (( b=0; b<YSIZE-1; b++ ));
   do
-    yea=(3*b)+1 ;
+    #yea=(3*b)+1 ;
+    yea=(4*b)+1 ; #Meng mod
     center_frag_list="$center_frag_list $yea" ;
   done
   vmdaux='vmdaux'
@@ -527,7 +547,8 @@ origin)
   origin_frag_list='' ;
   for (( b=0; b<YSIZE; b++ ));
   do
-    yea=(3*b) ;
+    #yea=(3*b) ;
+    yea=(4*b) ; #Meng mod
     origin_frag_list="$origin_frag_list $yea" ;
   done
   vmdaux='vmdaux'

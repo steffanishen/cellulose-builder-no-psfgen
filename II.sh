@@ -34,6 +34,16 @@ FIBRIL=0  #Meng mod
 
 [ -z "$1" ] && usage || { case $1 in 
                           fibril) declare -i XSIZE=7; declare -i YSIZE=5;  FIBRIL=1;
+
+                                 case $ORIENTATION in
+                                   110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to fibrils. " ;
+                                        echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                        ORIENTATION=100 ;
+                                   ;;
+                                 esac
+                                 echo
+
+
                                        if [ ! -z "$2" ] ; then
                                          if [ `expr $2 + 1` -a "$2" -gt 0 ] ; then
                                            declare -i ZSIZE=$2 && echo ' Allomorph II-mercerized' ; 
@@ -93,6 +103,16 @@ FIBRIL=0  #Meng mod
                                     echo 'ARGUMENT ERROR: You must provide two integer numbers greater than 1' ;
                                     echo '                as arguments after the string `center`.' ; exit 9;
                                  fi
+
+                                 case $ORIENTATION in
+                                   110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to monolayers. " ;
+                                        echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                        ORIENTATION=100 ;
+                                   ;;
+                                 esac
+                                 echo
+
+
 #                                ####
                                  if [ `expr $2 + 1` -a "$2" -gt 1 ] ; then
                                     declare -i XSIZE=$2
@@ -126,6 +146,15 @@ FIBRIL=0  #Meng mod
                                     echo 'ARGUMENT ERROR: You must provide two integer numbers greater than 1' ;
                                     echo '                as arguments after the string `origin`.' ; exit 9;
                                  fi
+
+                                 case $ORIENTATION in
+                                   110) echo " WARNING: variable $ORIENTATION = $ORIENTATION . This does not apply to monolayers. " ;
+                                        echo '          Using default value for fibrils, i.e., ORIENTATION = 100 . ' ;
+                                        ORIENTATION=100 ;
+                                   ;;
+                                 esac
+                                 echo
+
 #                                ####
                                  if [ `expr $2 + 1` -a "$2" -gt 1 ] ; then
                                     declare -i XSIZE=$2
