@@ -32,7 +32,6 @@
 wrap=0    #Meng mod
 FIBRIL=0  #Meng mod
 
-
 [ -z "$1" ] && usage || { case $1 in 
                           fibril) declare -i XSIZE=5; declare -i YSIZE=7; FIBRIL=1;
                                        case $ORIENTATION in
@@ -94,6 +93,12 @@ FIBRIL=0  #Meng mod
                                   echo " Building cristallite with arguments provided ( $XSIZE , $YSIZE , $ZSIZE ). " ;
 
                                   echo ;
+                                  case $ORIENTATION in
+                                       110) echo " WARNING: variable ORIENTATION = $ORIENTATION . This only applies to crystals. " ;
+                                            YSIZE=$(($YSIZE*2)) ;
+                                       ;;
+                                  esac
+                                  echo
                           ;;
                          center) if [ -z "$2" ] ; then
                                     echo 'ARGUMENT ERROR: You must provide two integer numbers greater than 1' ;
@@ -240,9 +245,10 @@ then
   echo "Miller index: (1 1 0)"
 fi
 
-
 for (( J=0; J<YSIZE; J++ ))
 do
+  remainder=$(($J % 2))
+  half=$(($J/2))
   for (( I=0; I<XSIZE; I++))
   do
     if [ $ORIENTATION -eq 100 ]
@@ -251,8 +257,16 @@ do
       echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
     elif [ $ORIENTATION -eq 110 ]
     then
-      echo "fc"$NUM"(:,1) = "$FC"(:,1) + "$I" + "$J"" >> $AUXSCRIPT
-      echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$J"" >> $AUXSCRIPT
+
+      if [ $remainder -eq 1 ]
+      then
+        echo "fc"$NUM"(:,1) = "$FC"(:,1) - "$I" + "$half"" >> $AUXSCRIPT
+        echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$I" + "$half"" >> $AUXSCRIPT
+      elif [ $remainder -eq 0 ]
+      then
+        echo "fc"$NUM"(:,1) = "$FC"(:,1) - "$I" + "$half"" >> $AUXSCRIPT
+        echo "fc"$NUM"(:,2) = "$FC"(:,2) + "$I" + "$half" - 1" >> $AUXSCRIPT
+      fi
 ## Need to separately treat it based on oddness of the numbers
 
 
@@ -270,18 +284,52 @@ do
   done
 done
 ################### Meng mod: Consider the box size of (110) Miller index #########
-echo "basisvector1 = [ "$BVX"*a 0 0 ]" >> $AUXSCRIPT
 if [ $ORIENTATION -eq 100 ]
 then
+  echo "basisvector1 = [ "$BVX"*a 0 0 ]" >> $AUXSCRIPT
   echo "basisvector2 = [ "$BVY"*b*cosg  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
 elif [ $ORIENTATION -eq 110 ]
 then
-  echo "basisvector2 = [ "$BVY"*(b*cosg+a)  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
+  echo "basisvector1 = [ "$BVX"*(b*cosg+a) "$BVX"*b*sing 0 ]" >> $AUXSCRIPT
+  echo "basisvector2 = [ "$BVY"*(b*cosg-a)  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
 fi
 #############################################################################
 
 echo "basisvector3 = [ 0  0  "$BVZ"*c ]" >> $AUXSCRIPT
+
+echo "l1 = norm(basisvector1)" >> $AUXSCRIPT
+echo "l2 = norm(basisvector2)" >> $AUXSCRIPT
+echo "l3 = norm(basisvector3)" >> $AUXSCRIPT
+
+echo "angle_z = acos(dot( basisvector1,[1.0, 0.0, 0.0] )/norm(basisvector1)) * 180.0 / pi" >> $AUXSCRIPT
+
+echo "cross_z = cross(basisvector1,[1.0, 0.0, 0.0])" >> $AUXSCRIPT
+echo "signz = cross_z(3)" >> $AUXSCRIPT
+
+echo "if signz<0 " >> $AUXSCRIPT
+echo "angle_z = -angle_z " >> $AUXSCRIPT
+echo "endif " >> $AUXSCRIPT
+
+echo "angle_x = 90.0" >> $AUXSCRIPT
+
+echo "T=rotz(angle_z)" >> $AUXSCRIPT
+
+echo "basisvector1_rotz = T*basisvector1'" >> $AUXSCRIPT
+echo "basisvector2_rotz = T*basisvector2'" >> $AUXSCRIPT
+echo "basisvector3_rotz = T*basisvector3'" >> $AUXSCRIPT
+
+echo "T=rotx(angle_x)" >> $AUXSCRIPT
+
+echo "basisvector1_new = T*basisvector1_rotz" >> $AUXSCRIPT
+echo "basisvector2_new = T*basisvector2_rotz" >> $AUXSCRIPT
+echo "basisvector3_new = T*basisvector3_rotz" >> $AUXSCRIPT
+
+
+#echo "save 'angles.txt' angle_z angle_y basisvector1_rotz basisvector2_rotz basisvector3_rotz basisvector1_roty basisvector2_roty basisvector3_roty" >> $AUXSCRIPT
+
+
 echo "save 'basisvectors' basisvector1 basisvector2 basisvector3 " >> $AUXSCRIPT
+echo "save 'boxsize.txt' l1 l2 l3 angle_z angle_y basisvector1_rotz basisvector2_rotz basisvector3_rotz basisvector1_new basisvector2_new basisvector3_new" >> $AUXSCRIPT
 echo "clear basisvector1 basisvector2 basisvector3 " >> $AUXSCRIPT
 
 declare -i cnum=1
@@ -503,7 +551,6 @@ nfrag=`vmd -dispdev text "$CRYSTAL" -e "$vmdquit">"$frlog" 2>&1 && \
 ############################
 vmdscript='vmdscript'
 forbidden=''
-remainder=''
 declare -i a=nfrag;
 declare -i b=1;
 declare -i forb=0;
@@ -679,7 +726,7 @@ ls crystal*  > /dev/null  2>&1  && list=`ls crystal* 2> /dev/null` ;
                   } ;
 [ -d crystal ] && { rm -rf crystal; mkdir -p crystal; } || mkdir -p crystal;
 #mv -f crystal.pdb crystal.psf crystal.xyz psfgen.sh psfgen.log crystal  && remove_crap || { echo ' Unexpected error! Oops, this is embarrassing...' ; remove_crap ; exit 3 ; } ;
-mv -f crystal.pdb crystal.psf crystal.xyz psfgen.tcl psfgen.log crystal  && remove_crap || { echo ' Unexpected error! Oops, this is embarrassing...' ; remove_crap ; exit 3 ; } ;
+mv -f crystal.pdb crystal.psf crystal.xyz psfgen.tcl psfgen.log boxsize.txt crystal  && remove_crap || { echo ' Unexpected error! Oops, this is embarrassing...' ; remove_crap ; exit 3 ; } ;
 
 [ "$DOWEGOTIT" = 'ROGERTHAT' ] && print_thank_you ;
 exit 0 ;
