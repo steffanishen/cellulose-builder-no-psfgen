@@ -290,8 +290,8 @@ then
   echo "basisvector2 = [ "$BVY"*b*cosg  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
 elif [ $ORIENTATION -eq 110 ]
 then
-  echo "basisvector1 = [ "$BVX"*(b*cosg+a) "$BVX"*b*sing 0 ]" >> $AUXSCRIPT
-  echo "basisvector2 = [ "$BVY"*(b*cosg-a)  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
+  echo "basisvector1 = [ "$BVX"*(b*cosg-a) "$BVX"*b*sing 0 ]" >> $AUXSCRIPT
+  echo "basisvector2 = [ "$BVY"*(b*cosg+a)  "$BVY"*b*sing  0 ]" >> $AUXSCRIPT
 fi
 #############################################################################
 
@@ -301,9 +301,9 @@ echo "l1 = norm(basisvector1)" >> $AUXSCRIPT
 echo "l2 = norm(basisvector2)" >> $AUXSCRIPT
 echo "l3 = norm(basisvector3)" >> $AUXSCRIPT
 
-echo "angle_z = acos(dot( basisvector1,[1.0, 0.0, 0.0] )/norm(basisvector1)) * 180.0 / pi" >> $AUXSCRIPT
+echo "angle_z = acos(dot( basisvector2,[1.0, 0.0, 0.0] )/norm(basisvector2)) * 180.0 / pi" >> $AUXSCRIPT
 
-echo "cross_z = cross(basisvector1,[1.0, 0.0, 0.0])" >> $AUXSCRIPT
+echo "cross_z = cross(basisvector2,[1.0, 0.0, 0.0])" >> $AUXSCRIPT
 echo "signz = cross_z(3)" >> $AUXSCRIPT
 
 echo "if signz<0 " >> $AUXSCRIPT

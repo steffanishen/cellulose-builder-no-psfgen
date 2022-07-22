@@ -14,14 +14,14 @@ Info) Using plugin xyz for coordinates from file crystal.xyz
 Info) Determining bond structure from distance search ...
 Info) Finished with coordinate file crystal.xyz.
 Info) Analyzing structure ...
-Info)    Atoms: 58968
-Info)    Bonds: 61740
+Info)    Atoms: 39312
+Info)    Bonds: 41160
 Info)    Angles: 0  Dihedrals: 0  Impropers: 0  Cross-terms: 0
 Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
-Info)    Residues: 36
+Info)    Residues: 24
 Info)    Waters: 0
 Info)    Segments: 1
-Info)    Fragments: 36   Protein: 0   Nucleic: 0
+Info)    Fragments: 24   Protein: 0   Nucleic: 0
 Info) VMD for MACOSXARM64, version 1.9.4a57 (April 27, 2022)
 Info) Exiting normally.
 vmd > 

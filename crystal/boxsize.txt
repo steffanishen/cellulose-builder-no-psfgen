@@ -1,0 +1,75 @@
+# Created by Octave 7.1.0, Thu Jul 21 14:22:37 2022 PDT <meshen@meshen-m1>
+# name: l1
+# type: scalar
+23.857918595680541
+
+
+# name: l2
+# type: scalar
+31.945991871191467
+
+
+# name: l3
+# type: scalar
+404.82000000000005
+
+
+# name: angle_z
+# type: scalar
+-49.924162439598533
+
+
+# name: basisvector1_rotz
+# type: matrix
+# rows: 3
+# columns: 1
+ 1.2519401545352089
+ 23.825048280487952
+ 0
+
+
+# name: basisvector2_rotz
+# type: matrix
+# rows: 3
+# columns: 1
+ 31.945991871191467
+ 1.7763568394002505e-15
+ 0
+
+
+# name: basisvector3_rotz
+# type: matrix
+# rows: 3
+# columns: 1
+ 0
+ 0
+ 404.82000000000005
+
+
+# name: basisvector1_new
+# type: matrix
+# rows: 3
+# columns: 1
+ 1.2519401545352089
+ 1.4588634558115361e-15
+ 23.825048280487952
+
+
+# name: basisvector2_new
+# type: matrix
+# rows: 3
+# columns: 1
+ 31.945991871191467
+ 1.0877048587575128e-31
+ 1.7763568394002505e-15
+
+
+# name: basisvector3_new
+# type: matrix
+# rows: 3
+# columns: 1
+ 0
+ -404.82000000000005
+ 2.478807586154158e-14
+
+

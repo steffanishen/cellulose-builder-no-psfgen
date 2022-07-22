@@ -22,450 +22,1992 @@ psfgen)
 psfgen) Created by CHARMM version 32 1
 psfgen) building segment M0
 psfgen) reading residues from pdb file ./frag_0.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M1
 psfgen) reading residues from pdb file ./frag_1.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M2
 psfgen) reading residues from pdb file ./frag_2.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M3
 psfgen) reading residues from pdb file ./frag_3.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M4
 psfgen) reading residues from pdb file ./frag_4.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M5
 psfgen) reading residues from pdb file ./frag_5.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M6
 psfgen) reading residues from pdb file ./frag_6.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M7
 psfgen) reading residues from pdb file ./frag_7.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M8
 psfgen) reading residues from pdb file ./frag_8.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M9
 psfgen) reading residues from pdb file ./frag_9.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M10
 psfgen) reading residues from pdb file ./frag_10.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M11
 psfgen) reading residues from pdb file ./frag_11.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M12
 psfgen) reading residues from pdb file ./frag_12.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M13
 psfgen) reading residues from pdb file ./frag_13.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M14
 psfgen) reading residues from pdb file ./frag_14.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M15
 psfgen) reading residues from pdb file ./frag_15.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M16
 psfgen) reading residues from pdb file ./frag_16.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M17
 psfgen) reading residues from pdb file ./frag_17.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M18
 psfgen) reading residues from pdb file ./frag_18.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M19
 psfgen) reading residues from pdb file ./frag_19.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M20
 psfgen) reading residues from pdb file ./frag_20.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M21
 psfgen) reading residues from pdb file ./frag_21.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M22
 psfgen) reading residues from pdb file ./frag_22.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
+psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) building segment M23
 psfgen) reading residues from pdb file ./frag_23.tmp.pdb
-psfgen) extracted 4 residues from pdb file
+psfgen) extracted 78 residues from pdb file
 Info: generating structure...
 segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M24
-psfgen) reading residues from pdb file ./frag_24.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M25
-psfgen) reading residues from pdb file ./frag_25.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M26
-psfgen) reading residues from pdb file ./frag_26.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M27
-psfgen) reading residues from pdb file ./frag_27.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M28
-psfgen) reading residues from pdb file ./frag_28.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M29
-psfgen) reading residues from pdb file ./frag_29.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M30
-psfgen) reading residues from pdb file ./frag_30.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M31
-psfgen) reading residues from pdb file ./frag_31.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M32
-psfgen) reading residues from pdb file ./frag_32.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M33
-psfgen) reading residues from pdb file ./frag_33.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M34
-psfgen) reading residues from pdb file ./frag_34.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M35
-psfgen) reading residues from pdb file ./frag_35.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M36
-psfgen) reading residues from pdb file ./frag_36.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M37
-psfgen) reading residues from pdb file ./frag_37.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M38
-psfgen) reading residues from pdb file ./frag_38.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M39
-psfgen) reading residues from pdb file ./frag_39.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M40
-psfgen) reading residues from pdb file ./frag_40.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M41
-psfgen) reading residues from pdb file ./frag_41.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M42
-psfgen) reading residues from pdb file ./frag_42.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M43
-psfgen) reading residues from pdb file ./frag_43.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M44
-psfgen) reading residues from pdb file ./frag_44.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M45
-psfgen) reading residues from pdb file ./frag_45.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M46
-psfgen) reading residues from pdb file ./frag_46.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M47
-psfgen) reading residues from pdb file ./frag_47.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M48
-psfgen) reading residues from pdb file ./frag_48.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) applying patch 14BB to 2 residue(s)
-psfgen) building segment M49
-psfgen) reading residues from pdb file ./frag_49.tmp.pdb
-psfgen) extracted 4 residues from pdb file
-Info: generating structure...
-segment complete.
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
 psfgen) applying patch 14BB to 2 residue(s)
@@ -496,38 +2038,12 @@ psfgen) reading coordinates from pdb file frag_20.tmp.pdb for segment M20
 psfgen) reading coordinates from pdb file frag_21.tmp.pdb for segment M21
 psfgen) reading coordinates from pdb file frag_22.tmp.pdb for segment M22
 psfgen) reading coordinates from pdb file frag_23.tmp.pdb for segment M23
-psfgen) reading coordinates from pdb file frag_24.tmp.pdb for segment M24
-psfgen) reading coordinates from pdb file frag_25.tmp.pdb for segment M25
-psfgen) reading coordinates from pdb file frag_26.tmp.pdb for segment M26
-psfgen) reading coordinates from pdb file frag_27.tmp.pdb for segment M27
-psfgen) reading coordinates from pdb file frag_28.tmp.pdb for segment M28
-psfgen) reading coordinates from pdb file frag_29.tmp.pdb for segment M29
-psfgen) reading coordinates from pdb file frag_30.tmp.pdb for segment M30
-psfgen) reading coordinates from pdb file frag_31.tmp.pdb for segment M31
-psfgen) reading coordinates from pdb file frag_32.tmp.pdb for segment M32
-psfgen) reading coordinates from pdb file frag_33.tmp.pdb for segment M33
-psfgen) reading coordinates from pdb file frag_34.tmp.pdb for segment M34
-psfgen) reading coordinates from pdb file frag_35.tmp.pdb for segment M35
-psfgen) reading coordinates from pdb file frag_36.tmp.pdb for segment M36
-psfgen) reading coordinates from pdb file frag_37.tmp.pdb for segment M37
-psfgen) reading coordinates from pdb file frag_38.tmp.pdb for segment M38
-psfgen) reading coordinates from pdb file frag_39.tmp.pdb for segment M39
-psfgen) reading coordinates from pdb file frag_40.tmp.pdb for segment M40
-psfgen) reading coordinates from pdb file frag_41.tmp.pdb for segment M41
-psfgen) reading coordinates from pdb file frag_42.tmp.pdb for segment M42
-psfgen) reading coordinates from pdb file frag_43.tmp.pdb for segment M43
-psfgen) reading coordinates from pdb file frag_44.tmp.pdb for segment M44
-psfgen) reading coordinates from pdb file frag_45.tmp.pdb for segment M45
-psfgen) reading coordinates from pdb file frag_46.tmp.pdb for segment M46
-psfgen) reading coordinates from pdb file frag_47.tmp.pdb for segment M47
-psfgen) reading coordinates from pdb file frag_48.tmp.pdb for segment M48
-psfgen) reading coordinates from pdb file frag_49.tmp.pdb for segment M49
 psfgen) Info: guessing coordinates for 0 atoms (0 non-hydrogen)
 psfgen) Info: writing psf file crystal.psf
-psfgen) total of 4200 atoms
-psfgen) total of 4400 bonds
-psfgen) total of 8200 angles
-psfgen) total of 13200 dihedrals
+psfgen) total of 39312 atoms
+psfgen) total of 41184 bonds
+psfgen) total of 76752 angles
+psfgen) total of 123552 dihedrals
 psfgen) total of 0 impropers
 psfgen) total of 0 explicit exclusions
 psfgen) Structure requires EXTended PSF format
@@ -536,6 +2052,1678 @@ psfgen) Info: psf file complete.
 psfgen) Info: writing pdb file crystal.pdb
 psfgen) Info: pdb file complete.
 invalid command name "ENDMOL"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,452 +4,1994 @@ topology ./bGLC.top
 segment M0 {
   pdb ./frag_0.tmp.pdb
   }
+patch 14bb M0:78 M0:77
+patch 14bb M0:77 M0:76
+patch 14bb M0:76 M0:75
+patch 14bb M0:75 M0:74
+patch 14bb M0:74 M0:73
+patch 14bb M0:73 M0:72
+patch 14bb M0:72 M0:71
+patch 14bb M0:71 M0:70
+patch 14bb M0:70 M0:69
+patch 14bb M0:69 M0:68
+patch 14bb M0:68 M0:67
+patch 14bb M0:67 M0:66
+patch 14bb M0:66 M0:65
+patch 14bb M0:65 M0:64
+patch 14bb M0:64 M0:63
+patch 14bb M0:63 M0:62
+patch 14bb M0:62 M0:61
+patch 14bb M0:61 M0:60
+patch 14bb M0:60 M0:59
+patch 14bb M0:59 M0:58
+patch 14bb M0:58 M0:57
+patch 14bb M0:57 M0:56
+patch 14bb M0:56 M0:55
+patch 14bb M0:55 M0:54
+patch 14bb M0:54 M0:53
+patch 14bb M0:53 M0:52
+patch 14bb M0:52 M0:51
+patch 14bb M0:51 M0:50
+patch 14bb M0:50 M0:49
+patch 14bb M0:49 M0:48
+patch 14bb M0:48 M0:47
+patch 14bb M0:47 M0:46
+patch 14bb M0:46 M0:45
+patch 14bb M0:45 M0:44
+patch 14bb M0:44 M0:43
+patch 14bb M0:43 M0:42
+patch 14bb M0:42 M0:41
+patch 14bb M0:41 M0:40
+patch 14bb M0:40 M0:39
+patch 14bb M0:39 M0:38
+patch 14bb M0:38 M0:37
+patch 14bb M0:37 M0:36
+patch 14bb M0:36 M0:35
+patch 14bb M0:35 M0:34
+patch 14bb M0:34 M0:33
+patch 14bb M0:33 M0:32
+patch 14bb M0:32 M0:31
+patch 14bb M0:31 M0:30
+patch 14bb M0:30 M0:29
+patch 14bb M0:29 M0:28
+patch 14bb M0:28 M0:27
+patch 14bb M0:27 M0:26
+patch 14bb M0:26 M0:25
+patch 14bb M0:25 M0:24
+patch 14bb M0:24 M0:23
+patch 14bb M0:23 M0:22
+patch 14bb M0:22 M0:21
+patch 14bb M0:21 M0:20
+patch 14bb M0:20 M0:19
+patch 14bb M0:19 M0:18
+patch 14bb M0:18 M0:17
+patch 14bb M0:17 M0:16
+patch 14bb M0:16 M0:15
+patch 14bb M0:15 M0:14
+patch 14bb M0:14 M0:13
+patch 14bb M0:13 M0:12
+patch 14bb M0:12 M0:11
+patch 14bb M0:11 M0:10
+patch 14bb M0:10 M0:9
+patch 14bb M0:9 M0:8
+patch 14bb M0:8 M0:7
+patch 14bb M0:7 M0:6
+patch 14bb M0:6 M0:5
+patch 14bb M0:5 M0:4
 patch 14bb M0:4 M0:3
 patch 14bb M0:3 M0:2
 patch 14bb M0:2 M0:1
 
-patch 14bb M0:1 M0:4
+patch 14bb M0:1 M0:78
 
 segment M1 {
   pdb ./frag_1.tmp.pdb
   }
+patch 14bb M1:78 M1:77
+patch 14bb M1:77 M1:76
+patch 14bb M1:76 M1:75
+patch 14bb M1:75 M1:74
+patch 14bb M1:74 M1:73
+patch 14bb M1:73 M1:72
+patch 14bb M1:72 M1:71
+patch 14bb M1:71 M1:70
+patch 14bb M1:70 M1:69
+patch 14bb M1:69 M1:68
+patch 14bb M1:68 M1:67
+patch 14bb M1:67 M1:66
+patch 14bb M1:66 M1:65
+patch 14bb M1:65 M1:64
+patch 14bb M1:64 M1:63
+patch 14bb M1:63 M1:62
+patch 14bb M1:62 M1:61
+patch 14bb M1:61 M1:60
+patch 14bb M1:60 M1:59
+patch 14bb M1:59 M1:58
+patch 14bb M1:58 M1:57
+patch 14bb M1:57 M1:56
+patch 14bb M1:56 M1:55
+patch 14bb M1:55 M1:54
+patch 14bb M1:54 M1:53
+patch 14bb M1:53 M1:52
+patch 14bb M1:52 M1:51
+patch 14bb M1:51 M1:50
+patch 14bb M1:50 M1:49
+patch 14bb M1:49 M1:48
+patch 14bb M1:48 M1:47
+patch 14bb M1:47 M1:46
+patch 14bb M1:46 M1:45
+patch 14bb M1:45 M1:44
+patch 14bb M1:44 M1:43
+patch 14bb M1:43 M1:42
+patch 14bb M1:42 M1:41
+patch 14bb M1:41 M1:40
+patch 14bb M1:40 M1:39
+patch 14bb M1:39 M1:38
+patch 14bb M1:38 M1:37
+patch 14bb M1:37 M1:36
+patch 14bb M1:36 M1:35
+patch 14bb M1:35 M1:34
+patch 14bb M1:34 M1:33
+patch 14bb M1:33 M1:32
+patch 14bb M1:32 M1:31
+patch 14bb M1:31 M1:30
+patch 14bb M1:30 M1:29
+patch 14bb M1:29 M1:28
+patch 14bb M1:28 M1:27
+patch 14bb M1:27 M1:26
+patch 14bb M1:26 M1:25
+patch 14bb M1:25 M1:24
+patch 14bb M1:24 M1:23
+patch 14bb M1:23 M1:22
+patch 14bb M1:22 M1:21
+patch 14bb M1:21 M1:20
+patch 14bb M1:20 M1:19
+patch 14bb M1:19 M1:18
+patch 14bb M1:18 M1:17
+patch 14bb M1:17 M1:16
+patch 14bb M1:16 M1:15
+patch 14bb M1:15 M1:14
+patch 14bb M1:14 M1:13
+patch 14bb M1:13 M1:12
+patch 14bb M1:12 M1:11
+patch 14bb M1:11 M1:10
+patch 14bb M1:10 M1:9
+patch 14bb M1:9 M1:8
+patch 14bb M1:8 M1:7
+patch 14bb M1:7 M1:6
+patch 14bb M1:6 M1:5
+patch 14bb M1:5 M1:4
 patch 14bb M1:4 M1:3
 patch 14bb M1:3 M1:2
 patch 14bb M1:2 M1:1
 
-patch 14bb M1:1 M1:4
+patch 14bb M1:1 M1:78
 
 segment M2 {
   pdb ./frag_2.tmp.pdb
   }
+patch 14bb M2:78 M2:77
+patch 14bb M2:77 M2:76
+patch 14bb M2:76 M2:75
+patch 14bb M2:75 M2:74
+patch 14bb M2:74 M2:73
+patch 14bb M2:73 M2:72
+patch 14bb M2:72 M2:71
+patch 14bb M2:71 M2:70
+patch 14bb M2:70 M2:69
+patch 14bb M2:69 M2:68
+patch 14bb M2:68 M2:67
+patch 14bb M2:67 M2:66
+patch 14bb M2:66 M2:65
+patch 14bb M2:65 M2:64
+patch 14bb M2:64 M2:63
+patch 14bb M2:63 M2:62
+patch 14bb M2:62 M2:61
+patch 14bb M2:61 M2:60
+patch 14bb M2:60 M2:59
+patch 14bb M2:59 M2:58
+patch 14bb M2:58 M2:57
+patch 14bb M2:57 M2:56
+patch 14bb M2:56 M2:55
+patch 14bb M2:55 M2:54
+patch 14bb M2:54 M2:53
+patch 14bb M2:53 M2:52
+patch 14bb M2:52 M2:51
+patch 14bb M2:51 M2:50
+patch 14bb M2:50 M2:49
+patch 14bb M2:49 M2:48
+patch 14bb M2:48 M2:47
+patch 14bb M2:47 M2:46
+patch 14bb M2:46 M2:45
+patch 14bb M2:45 M2:44
+patch 14bb M2:44 M2:43
+patch 14bb M2:43 M2:42
+patch 14bb M2:42 M2:41
+patch 14bb M2:41 M2:40
+patch 14bb M2:40 M2:39
+patch 14bb M2:39 M2:38
+patch 14bb M2:38 M2:37
+patch 14bb M2:37 M2:36
+patch 14bb M2:36 M2:35
+patch 14bb M2:35 M2:34
+patch 14bb M2:34 M2:33
+patch 14bb M2:33 M2:32
+patch 14bb M2:32 M2:31
+patch 14bb M2:31 M2:30
+patch 14bb M2:30 M2:29
+patch 14bb M2:29 M2:28
+patch 14bb M2:28 M2:27
+patch 14bb M2:27 M2:26
+patch 14bb M2:26 M2:25
+patch 14bb M2:25 M2:24
+patch 14bb M2:24 M2:23
+patch 14bb M2:23 M2:22
+patch 14bb M2:22 M2:21
+patch 14bb M2:21 M2:20
+patch 14bb M2:20 M2:19
+patch 14bb M2:19 M2:18
+patch 14bb M2:18 M2:17
+patch 14bb M2:17 M2:16
+patch 14bb M2:16 M2:15
+patch 14bb M2:15 M2:14
+patch 14bb M2:14 M2:13
+patch 14bb M2:13 M2:12
+patch 14bb M2:12 M2:11
+patch 14bb M2:11 M2:10
+patch 14bb M2:10 M2:9
+patch 14bb M2:9 M2:8
+patch 14bb M2:8 M2:7
+patch 14bb M2:7 M2:6
+patch 14bb M2:6 M2:5
+patch 14bb M2:5 M2:4
 patch 14bb M2:4 M2:3
 patch 14bb M2:3 M2:2
 patch 14bb M2:2 M2:1
 
-patch 14bb M2:1 M2:4
+patch 14bb M2:1 M2:78
 
 segment M3 {
   pdb ./frag_3.tmp.pdb
   }
+patch 14bb M3:78 M3:77
+patch 14bb M3:77 M3:76
+patch 14bb M3:76 M3:75
+patch 14bb M3:75 M3:74
+patch 14bb M3:74 M3:73
+patch 14bb M3:73 M3:72
+patch 14bb M3:72 M3:71
+patch 14bb M3:71 M3:70
+patch 14bb M3:70 M3:69
+patch 14bb M3:69 M3:68
+patch 14bb M3:68 M3:67
+patch 14bb M3:67 M3:66
+patch 14bb M3:66 M3:65
+patch 14bb M3:65 M3:64
+patch 14bb M3:64 M3:63
+patch 14bb M3:63 M3:62
+patch 14bb M3:62 M3:61
+patch 14bb M3:61 M3:60
+patch 14bb M3:60 M3:59
+patch 14bb M3:59 M3:58
+patch 14bb M3:58 M3:57
+patch 14bb M3:57 M3:56
+patch 14bb M3:56 M3:55
+patch 14bb M3:55 M3:54
+patch 14bb M3:54 M3:53
+patch 14bb M3:53 M3:52
+patch 14bb M3:52 M3:51
+patch 14bb M3:51 M3:50
+patch 14bb M3:50 M3:49
+patch 14bb M3:49 M3:48
+patch 14bb M3:48 M3:47
+patch 14bb M3:47 M3:46
+patch 14bb M3:46 M3:45
+patch 14bb M3:45 M3:44
+patch 14bb M3:44 M3:43
+patch 14bb M3:43 M3:42
+patch 14bb M3:42 M3:41
+patch 14bb M3:41 M3:40
+patch 14bb M3:40 M3:39
+patch 14bb M3:39 M3:38
+patch 14bb M3:38 M3:37
+patch 14bb M3:37 M3:36
+patch 14bb M3:36 M3:35
+patch 14bb M3:35 M3:34
+patch 14bb M3:34 M3:33
+patch 14bb M3:33 M3:32
+patch 14bb M3:32 M3:31
+patch 14bb M3:31 M3:30
+patch 14bb M3:30 M3:29
+patch 14bb M3:29 M3:28
+patch 14bb M3:28 M3:27
+patch 14bb M3:27 M3:26
+patch 14bb M3:26 M3:25
+patch 14bb M3:25 M3:24
+patch 14bb M3:24 M3:23
+patch 14bb M3:23 M3:22
+patch 14bb M3:22 M3:21
+patch 14bb M3:21 M3:20
+patch 14bb M3:20 M3:19
+patch 14bb M3:19 M3:18
+patch 14bb M3:18 M3:17
+patch 14bb M3:17 M3:16
+patch 14bb M3:16 M3:15
+patch 14bb M3:15 M3:14
+patch 14bb M3:14 M3:13
+patch 14bb M3:13 M3:12
+patch 14bb M3:12 M3:11
+patch 14bb M3:11 M3:10
+patch 14bb M3:10 M3:9
+patch 14bb M3:9 M3:8
+patch 14bb M3:8 M3:7
+patch 14bb M3:7 M3:6
+patch 14bb M3:6 M3:5
+patch 14bb M3:5 M3:4
 patch 14bb M3:4 M3:3
 patch 14bb M3:3 M3:2
 patch 14bb M3:2 M3:1
 
-patch 14bb M3:1 M3:4
+patch 14bb M3:1 M3:78
 
 segment M4 {
   pdb ./frag_4.tmp.pdb
   }
+patch 14bb M4:78 M4:77
+patch 14bb M4:77 M4:76
+patch 14bb M4:76 M4:75
+patch 14bb M4:75 M4:74
+patch 14bb M4:74 M4:73
+patch 14bb M4:73 M4:72
+patch 14bb M4:72 M4:71
+patch 14bb M4:71 M4:70
+patch 14bb M4:70 M4:69
+patch 14bb M4:69 M4:68
+patch 14bb M4:68 M4:67
+patch 14bb M4:67 M4:66
+patch 14bb M4:66 M4:65
+patch 14bb M4:65 M4:64
+patch 14bb M4:64 M4:63
+patch 14bb M4:63 M4:62
+patch 14bb M4:62 M4:61
+patch 14bb M4:61 M4:60
+patch 14bb M4:60 M4:59
+patch 14bb M4:59 M4:58
+patch 14bb M4:58 M4:57
+patch 14bb M4:57 M4:56
+patch 14bb M4:56 M4:55
+patch 14bb M4:55 M4:54
+patch 14bb M4:54 M4:53
+patch 14bb M4:53 M4:52
+patch 14bb M4:52 M4:51
+patch 14bb M4:51 M4:50
+patch 14bb M4:50 M4:49
+patch 14bb M4:49 M4:48
+patch 14bb M4:48 M4:47
+patch 14bb M4:47 M4:46
+patch 14bb M4:46 M4:45
+patch 14bb M4:45 M4:44
+patch 14bb M4:44 M4:43
+patch 14bb M4:43 M4:42
+patch 14bb M4:42 M4:41
+patch 14bb M4:41 M4:40
+patch 14bb M4:40 M4:39
+patch 14bb M4:39 M4:38
+patch 14bb M4:38 M4:37
+patch 14bb M4:37 M4:36
+patch 14bb M4:36 M4:35
+patch 14bb M4:35 M4:34
+patch 14bb M4:34 M4:33
+patch 14bb M4:33 M4:32
+patch 14bb M4:32 M4:31
+patch 14bb M4:31 M4:30
+patch 14bb M4:30 M4:29
+patch 14bb M4:29 M4:28
+patch 14bb M4:28 M4:27
+patch 14bb M4:27 M4:26
+patch 14bb M4:26 M4:25
+patch 14bb M4:25 M4:24
+patch 14bb M4:24 M4:23
+patch 14bb M4:23 M4:22
+patch 14bb M4:22 M4:21
+patch 14bb M4:21 M4:20
+patch 14bb M4:20 M4:19
+patch 14bb M4:19 M4:18
+patch 14bb M4:18 M4:17
+patch 14bb M4:17 M4:16
+patch 14bb M4:16 M4:15
+patch 14bb M4:15 M4:14
+patch 14bb M4:14 M4:13
+patch 14bb M4:13 M4:12
+patch 14bb M4:12 M4:11
+patch 14bb M4:11 M4:10
+patch 14bb M4:10 M4:9
+patch 14bb M4:9 M4:8
+patch 14bb M4:8 M4:7
+patch 14bb M4:7 M4:6
+patch 14bb M4:6 M4:5
+patch 14bb M4:5 M4:4
 patch 14bb M4:4 M4:3
 patch 14bb M4:3 M4:2
 patch 14bb M4:2 M4:1
 
-patch 14bb M4:1 M4:4
+patch 14bb M4:1 M4:78
 
 segment M5 {
   pdb ./frag_5.tmp.pdb
   }
+patch 14bb M5:78 M5:77
+patch 14bb M5:77 M5:76
+patch 14bb M5:76 M5:75
+patch 14bb M5:75 M5:74
+patch 14bb M5:74 M5:73
+patch 14bb M5:73 M5:72
+patch 14bb M5:72 M5:71
+patch 14bb M5:71 M5:70
+patch 14bb M5:70 M5:69
+patch 14bb M5:69 M5:68
+patch 14bb M5:68 M5:67
+patch 14bb M5:67 M5:66
+patch 14bb M5:66 M5:65
+patch 14bb M5:65 M5:64
+patch 14bb M5:64 M5:63
+patch 14bb M5:63 M5:62
+patch 14bb M5:62 M5:61
+patch 14bb M5:61 M5:60
+patch 14bb M5:60 M5:59
+patch 14bb M5:59 M5:58
+patch 14bb M5:58 M5:57
+patch 14bb M5:57 M5:56
+patch 14bb M5:56 M5:55
+patch 14bb M5:55 M5:54
+patch 14bb M5:54 M5:53
+patch 14bb M5:53 M5:52
+patch 14bb M5:52 M5:51
+patch 14bb M5:51 M5:50
+patch 14bb M5:50 M5:49
+patch 14bb M5:49 M5:48
+patch 14bb M5:48 M5:47
+patch 14bb M5:47 M5:46
+patch 14bb M5:46 M5:45
+patch 14bb M5:45 M5:44
+patch 14bb M5:44 M5:43
+patch 14bb M5:43 M5:42
+patch 14bb M5:42 M5:41
+patch 14bb M5:41 M5:40
+patch 14bb M5:40 M5:39
+patch 14bb M5:39 M5:38
+patch 14bb M5:38 M5:37
+patch 14bb M5:37 M5:36
+patch 14bb M5:36 M5:35
+patch 14bb M5:35 M5:34
+patch 14bb M5:34 M5:33
+patch 14bb M5:33 M5:32
+patch 14bb M5:32 M5:31
+patch 14bb M5:31 M5:30
+patch 14bb M5:30 M5:29
+patch 14bb M5:29 M5:28
+patch 14bb M5:28 M5:27
+patch 14bb M5:27 M5:26
+patch 14bb M5:26 M5:25
+patch 14bb M5:25 M5:24
+patch 14bb M5:24 M5:23
+patch 14bb M5:23 M5:22
+patch 14bb M5:22 M5:21
+patch 14bb M5:21 M5:20
+patch 14bb M5:20 M5:19
+patch 14bb M5:19 M5:18
+patch 14bb M5:18 M5:17
+patch 14bb M5:17 M5:16
+patch 14bb M5:16 M5:15
+patch 14bb M5:15 M5:14
+patch 14bb M5:14 M5:13
+patch 14bb M5:13 M5:12
+patch 14bb M5:12 M5:11
+patch 14bb M5:11 M5:10
+patch 14bb M5:10 M5:9
+patch 14bb M5:9 M5:8
+patch 14bb M5:8 M5:7
+patch 14bb M5:7 M5:6
+patch 14bb M5:6 M5:5
+patch 14bb M5:5 M5:4
 patch 14bb M5:4 M5:3
 patch 14bb M5:3 M5:2
 patch 14bb M5:2 M5:1
 
-patch 14bb M5:1 M5:4
+patch 14bb M5:1 M5:78
 
 segment M6 {
   pdb ./frag_6.tmp.pdb
   }
+patch 14bb M6:78 M6:77
+patch 14bb M6:77 M6:76
+patch 14bb M6:76 M6:75
+patch 14bb M6:75 M6:74
+patch 14bb M6:74 M6:73
+patch 14bb M6:73 M6:72
+patch 14bb M6:72 M6:71
+patch 14bb M6:71 M6:70
+patch 14bb M6:70 M6:69
+patch 14bb M6:69 M6:68
+patch 14bb M6:68 M6:67
+patch 14bb M6:67 M6:66
+patch 14bb M6:66 M6:65
+patch 14bb M6:65 M6:64
+patch 14bb M6:64 M6:63
+patch 14bb M6:63 M6:62
+patch 14bb M6:62 M6:61
+patch 14bb M6:61 M6:60
+patch 14bb M6:60 M6:59
+patch 14bb M6:59 M6:58
+patch 14bb M6:58 M6:57
+patch 14bb M6:57 M6:56
+patch 14bb M6:56 M6:55
+patch 14bb M6:55 M6:54
+patch 14bb M6:54 M6:53
+patch 14bb M6:53 M6:52
+patch 14bb M6:52 M6:51
+patch 14bb M6:51 M6:50
+patch 14bb M6:50 M6:49
+patch 14bb M6:49 M6:48
+patch 14bb M6:48 M6:47
+patch 14bb M6:47 M6:46
+patch 14bb M6:46 M6:45
+patch 14bb M6:45 M6:44
+patch 14bb M6:44 M6:43
+patch 14bb M6:43 M6:42
+patch 14bb M6:42 M6:41
+patch 14bb M6:41 M6:40
+patch 14bb M6:40 M6:39
+patch 14bb M6:39 M6:38
+patch 14bb M6:38 M6:37
+patch 14bb M6:37 M6:36
+patch 14bb M6:36 M6:35
+patch 14bb M6:35 M6:34
+patch 14bb M6:34 M6:33
+patch 14bb M6:33 M6:32
+patch 14bb M6:32 M6:31
+patch 14bb M6:31 M6:30
+patch 14bb M6:30 M6:29
+patch 14bb M6:29 M6:28
+patch 14bb M6:28 M6:27
+patch 14bb M6:27 M6:26
+patch 14bb M6:26 M6:25
+patch 14bb M6:25 M6:24
+patch 14bb M6:24 M6:23
+patch 14bb M6:23 M6:22
+patch 14bb M6:22 M6:21
+patch 14bb M6:21 M6:20
+patch 14bb M6:20 M6:19
+patch 14bb M6:19 M6:18
+patch 14bb M6:18 M6:17
+patch 14bb M6:17 M6:16
+patch 14bb M6:16 M6:15
+patch 14bb M6:15 M6:14
+patch 14bb M6:14 M6:13
+patch 14bb M6:13 M6:12
+patch 14bb M6:12 M6:11
+patch 14bb M6:11 M6:10
+patch 14bb M6:10 M6:9
+patch 14bb M6:9 M6:8
+patch 14bb M6:8 M6:7
+patch 14bb M6:7 M6:6
+patch 14bb M6:6 M6:5
+patch 14bb M6:5 M6:4
 patch 14bb M6:4 M6:3
 patch 14bb M6:3 M6:2
 patch 14bb M6:2 M6:1
 
-patch 14bb M6:1 M6:4
+patch 14bb M6:1 M6:78
 
 segment M7 {
   pdb ./frag_7.tmp.pdb
   }
+patch 14bb M7:78 M7:77
+patch 14bb M7:77 M7:76
+patch 14bb M7:76 M7:75
+patch 14bb M7:75 M7:74
+patch 14bb M7:74 M7:73
+patch 14bb M7:73 M7:72
+patch 14bb M7:72 M7:71
+patch 14bb M7:71 M7:70
+patch 14bb M7:70 M7:69
+patch 14bb M7:69 M7:68
+patch 14bb M7:68 M7:67
+patch 14bb M7:67 M7:66
+patch 14bb M7:66 M7:65
+patch 14bb M7:65 M7:64
+patch 14bb M7:64 M7:63
+patch 14bb M7:63 M7:62
+patch 14bb M7:62 M7:61
+patch 14bb M7:61 M7:60
+patch 14bb M7:60 M7:59
+patch 14bb M7:59 M7:58
+patch 14bb M7:58 M7:57
+patch 14bb M7:57 M7:56
+patch 14bb M7:56 M7:55
+patch 14bb M7:55 M7:54
+patch 14bb M7:54 M7:53
+patch 14bb M7:53 M7:52
+patch 14bb M7:52 M7:51
+patch 14bb M7:51 M7:50
+patch 14bb M7:50 M7:49
+patch 14bb M7:49 M7:48
+patch 14bb M7:48 M7:47
+patch 14bb M7:47 M7:46
+patch 14bb M7:46 M7:45
+patch 14bb M7:45 M7:44
+patch 14bb M7:44 M7:43
+patch 14bb M7:43 M7:42
+patch 14bb M7:42 M7:41
+patch 14bb M7:41 M7:40
+patch 14bb M7:40 M7:39
+patch 14bb M7:39 M7:38
+patch 14bb M7:38 M7:37
+patch 14bb M7:37 M7:36
+patch 14bb M7:36 M7:35
+patch 14bb M7:35 M7:34
+patch 14bb M7:34 M7:33
+patch 14bb M7:33 M7:32
+patch 14bb M7:32 M7:31
+patch 14bb M7:31 M7:30
+patch 14bb M7:30 M7:29
+patch 14bb M7:29 M7:28
+patch 14bb M7:28 M7:27
+patch 14bb M7:27 M7:26
+patch 14bb M7:26 M7:25
+patch 14bb M7:25 M7:24
+patch 14bb M7:24 M7:23
+patch 14bb M7:23 M7:22
+patch 14bb M7:22 M7:21
+patch 14bb M7:21 M7:20
+patch 14bb M7:20 M7:19
+patch 14bb M7:19 M7:18
+patch 14bb M7:18 M7:17
+patch 14bb M7:17 M7:16
+patch 14bb M7:16 M7:15
+patch 14bb M7:15 M7:14
+patch 14bb M7:14 M7:13
+patch 14bb M7:13 M7:12
+patch 14bb M7:12 M7:11
+patch 14bb M7:11 M7:10
+patch 14bb M7:10 M7:9
+patch 14bb M7:9 M7:8
+patch 14bb M7:8 M7:7
+patch 14bb M7:7 M7:6
+patch 14bb M7:6 M7:5
+patch 14bb M7:5 M7:4
 patch 14bb M7:4 M7:3
 patch 14bb M7:3 M7:2
 patch 14bb M7:2 M7:1
 
-patch 14bb M7:1 M7:4
+patch 14bb M7:1 M7:78
 
 segment M8 {
   pdb ./frag_8.tmp.pdb
   }
+patch 14bb M8:78 M8:77
+patch 14bb M8:77 M8:76
+patch 14bb M8:76 M8:75
+patch 14bb M8:75 M8:74
+patch 14bb M8:74 M8:73
+patch 14bb M8:73 M8:72
+patch 14bb M8:72 M8:71
+patch 14bb M8:71 M8:70
+patch 14bb M8:70 M8:69
+patch 14bb M8:69 M8:68
+patch 14bb M8:68 M8:67
+patch 14bb M8:67 M8:66
+patch 14bb M8:66 M8:65
+patch 14bb M8:65 M8:64
+patch 14bb M8:64 M8:63
+patch 14bb M8:63 M8:62
+patch 14bb M8:62 M8:61
+patch 14bb M8:61 M8:60
+patch 14bb M8:60 M8:59
+patch 14bb M8:59 M8:58
+patch 14bb M8:58 M8:57
+patch 14bb M8:57 M8:56
+patch 14bb M8:56 M8:55
+patch 14bb M8:55 M8:54
+patch 14bb M8:54 M8:53
+patch 14bb M8:53 M8:52
+patch 14bb M8:52 M8:51
+patch 14bb M8:51 M8:50
+patch 14bb M8:50 M8:49
+patch 14bb M8:49 M8:48
+patch 14bb M8:48 M8:47
+patch 14bb M8:47 M8:46
+patch 14bb M8:46 M8:45
+patch 14bb M8:45 M8:44
+patch 14bb M8:44 M8:43
+patch 14bb M8:43 M8:42
+patch 14bb M8:42 M8:41
+patch 14bb M8:41 M8:40
+patch 14bb M8:40 M8:39
+patch 14bb M8:39 M8:38
+patch 14bb M8:38 M8:37
+patch 14bb M8:37 M8:36
+patch 14bb M8:36 M8:35
+patch 14bb M8:35 M8:34
+patch 14bb M8:34 M8:33
+patch 14bb M8:33 M8:32
+patch 14bb M8:32 M8:31
+patch 14bb M8:31 M8:30
+patch 14bb M8:30 M8:29
+patch 14bb M8:29 M8:28
+patch 14bb M8:28 M8:27
+patch 14bb M8:27 M8:26
+patch 14bb M8:26 M8:25
+patch 14bb M8:25 M8:24
+patch 14bb M8:24 M8:23
+patch 14bb M8:23 M8:22
+patch 14bb M8:22 M8:21
+patch 14bb M8:21 M8:20
+patch 14bb M8:20 M8:19
+patch 14bb M8:19 M8:18
+patch 14bb M8:18 M8:17
+patch 14bb M8:17 M8:16
+patch 14bb M8:16 M8:15
+patch 14bb M8:15 M8:14
+patch 14bb M8:14 M8:13
+patch 14bb M8:13 M8:12
+patch 14bb M8:12 M8:11
+patch 14bb M8:11 M8:10
+patch 14bb M8:10 M8:9
+patch 14bb M8:9 M8:8
+patch 14bb M8:8 M8:7
+patch 14bb M8:7 M8:6
+patch 14bb M8:6 M8:5
+patch 14bb M8:5 M8:4
 patch 14bb M8:4 M8:3
 patch 14bb M8:3 M8:2
 patch 14bb M8:2 M8:1
 
-patch 14bb M8:1 M8:4
+patch 14bb M8:1 M8:78
 
 segment M9 {
   pdb ./frag_9.tmp.pdb
   }
+patch 14bb M9:78 M9:77
+patch 14bb M9:77 M9:76
+patch 14bb M9:76 M9:75
+patch 14bb M9:75 M9:74
+patch 14bb M9:74 M9:73
+patch 14bb M9:73 M9:72
+patch 14bb M9:72 M9:71
+patch 14bb M9:71 M9:70
+patch 14bb M9:70 M9:69
+patch 14bb M9:69 M9:68
+patch 14bb M9:68 M9:67
+patch 14bb M9:67 M9:66
+patch 14bb M9:66 M9:65
+patch 14bb M9:65 M9:64
+patch 14bb M9:64 M9:63
+patch 14bb M9:63 M9:62
+patch 14bb M9:62 M9:61
+patch 14bb M9:61 M9:60
+patch 14bb M9:60 M9:59
+patch 14bb M9:59 M9:58
+patch 14bb M9:58 M9:57
+patch 14bb M9:57 M9:56
+patch 14bb M9:56 M9:55
+patch 14bb M9:55 M9:54
+patch 14bb M9:54 M9:53
+patch 14bb M9:53 M9:52
+patch 14bb M9:52 M9:51
+patch 14bb M9:51 M9:50
+patch 14bb M9:50 M9:49
+patch 14bb M9:49 M9:48
+patch 14bb M9:48 M9:47
+patch 14bb M9:47 M9:46
+patch 14bb M9:46 M9:45
+patch 14bb M9:45 M9:44
+patch 14bb M9:44 M9:43
+patch 14bb M9:43 M9:42
+patch 14bb M9:42 M9:41
+patch 14bb M9:41 M9:40
+patch 14bb M9:40 M9:39
+patch 14bb M9:39 M9:38
+patch 14bb M9:38 M9:37
+patch 14bb M9:37 M9:36
+patch 14bb M9:36 M9:35
+patch 14bb M9:35 M9:34
+patch 14bb M9:34 M9:33
+patch 14bb M9:33 M9:32
+patch 14bb M9:32 M9:31
+patch 14bb M9:31 M9:30
+patch 14bb M9:30 M9:29
+patch 14bb M9:29 M9:28
+patch 14bb M9:28 M9:27
+patch 14bb M9:27 M9:26
+patch 14bb M9:26 M9:25
+patch 14bb M9:25 M9:24
+patch 14bb M9:24 M9:23
+patch 14bb M9:23 M9:22
+patch 14bb M9:22 M9:21
+patch 14bb M9:21 M9:20
+patch 14bb M9:20 M9:19
+patch 14bb M9:19 M9:18
+patch 14bb M9:18 M9:17
+patch 14bb M9:17 M9:16
+patch 14bb M9:16 M9:15
+patch 14bb M9:15 M9:14
+patch 14bb M9:14 M9:13
+patch 14bb M9:13 M9:12
+patch 14bb M9:12 M9:11
+patch 14bb M9:11 M9:10
+patch 14bb M9:10 M9:9
+patch 14bb M9:9 M9:8
+patch 14bb M9:8 M9:7
+patch 14bb M9:7 M9:6
+patch 14bb M9:6 M9:5
+patch 14bb M9:5 M9:4
 patch 14bb M9:4 M9:3
 patch 14bb M9:3 M9:2
 patch 14bb M9:2 M9:1
 
-patch 14bb M9:1 M9:4
+patch 14bb M9:1 M9:78
 
 segment M10 {
   pdb ./frag_10.tmp.pdb
   }
+patch 14bb M10:78 M10:77
+patch 14bb M10:77 M10:76
+patch 14bb M10:76 M10:75
+patch 14bb M10:75 M10:74
+patch 14bb M10:74 M10:73
+patch 14bb M10:73 M10:72
+patch 14bb M10:72 M10:71
+patch 14bb M10:71 M10:70
+patch 14bb M10:70 M10:69
+patch 14bb M10:69 M10:68
+patch 14bb M10:68 M10:67
+patch 14bb M10:67 M10:66
+patch 14bb M10:66 M10:65
+patch 14bb M10:65 M10:64
+patch 14bb M10:64 M10:63
+patch 14bb M10:63 M10:62
+patch 14bb M10:62 M10:61
+patch 14bb M10:61 M10:60
+patch 14bb M10:60 M10:59
+patch 14bb M10:59 M10:58
+patch 14bb M10:58 M10:57
+patch 14bb M10:57 M10:56
+patch 14bb M10:56 M10:55
+patch 14bb M10:55 M10:54
+patch 14bb M10:54 M10:53
+patch 14bb M10:53 M10:52
+patch 14bb M10:52 M10:51
+patch 14bb M10:51 M10:50
+patch 14bb M10:50 M10:49
+patch 14bb M10:49 M10:48
+patch 14bb M10:48 M10:47
+patch 14bb M10:47 M10:46
+patch 14bb M10:46 M10:45
+patch 14bb M10:45 M10:44
+patch 14bb M10:44 M10:43
+patch 14bb M10:43 M10:42
+patch 14bb M10:42 M10:41
+patch 14bb M10:41 M10:40
+patch 14bb M10:40 M10:39
+patch 14bb M10:39 M10:38
+patch 14bb M10:38 M10:37
+patch 14bb M10:37 M10:36
+patch 14bb M10:36 M10:35
+patch 14bb M10:35 M10:34
+patch 14bb M10:34 M10:33
+patch 14bb M10:33 M10:32
+patch 14bb M10:32 M10:31
+patch 14bb M10:31 M10:30
+patch 14bb M10:30 M10:29
+patch 14bb M10:29 M10:28
+patch 14bb M10:28 M10:27
+patch 14bb M10:27 M10:26
+patch 14bb M10:26 M10:25
+patch 14bb M10:25 M10:24
+patch 14bb M10:24 M10:23
+patch 14bb M10:23 M10:22
+patch 14bb M10:22 M10:21
+patch 14bb M10:21 M10:20
+patch 14bb M10:20 M10:19
+patch 14bb M10:19 M10:18
+patch 14bb M10:18 M10:17
+patch 14bb M10:17 M10:16
+patch 14bb M10:16 M10:15
+patch 14bb M10:15 M10:14
+patch 14bb M10:14 M10:13
+patch 14bb M10:13 M10:12
+patch 14bb M10:12 M10:11
+patch 14bb M10:11 M10:10
+patch 14bb M10:10 M10:9
+patch 14bb M10:9 M10:8
+patch 14bb M10:8 M10:7
+patch 14bb M10:7 M10:6
+patch 14bb M10:6 M10:5
+patch 14bb M10:5 M10:4
 patch 14bb M10:4 M10:3
 patch 14bb M10:3 M10:2
 patch 14bb M10:2 M10:1
 
-patch 14bb M10:1 M10:4
+patch 14bb M10:1 M10:78
 
 segment M11 {
   pdb ./frag_11.tmp.pdb
   }
+patch 14bb M11:78 M11:77
+patch 14bb M11:77 M11:76
+patch 14bb M11:76 M11:75
+patch 14bb M11:75 M11:74
+patch 14bb M11:74 M11:73
+patch 14bb M11:73 M11:72
+patch 14bb M11:72 M11:71
+patch 14bb M11:71 M11:70
+patch 14bb M11:70 M11:69
+patch 14bb M11:69 M11:68
+patch 14bb M11:68 M11:67
+patch 14bb M11:67 M11:66
+patch 14bb M11:66 M11:65
+patch 14bb M11:65 M11:64
+patch 14bb M11:64 M11:63
+patch 14bb M11:63 M11:62
+patch 14bb M11:62 M11:61
+patch 14bb M11:61 M11:60
+patch 14bb M11:60 M11:59
+patch 14bb M11:59 M11:58
+patch 14bb M11:58 M11:57
+patch 14bb M11:57 M11:56
+patch 14bb M11:56 M11:55
+patch 14bb M11:55 M11:54
+patch 14bb M11:54 M11:53
+patch 14bb M11:53 M11:52
+patch 14bb M11:52 M11:51
+patch 14bb M11:51 M11:50
+patch 14bb M11:50 M11:49
+patch 14bb M11:49 M11:48
+patch 14bb M11:48 M11:47
+patch 14bb M11:47 M11:46
+patch 14bb M11:46 M11:45
+patch 14bb M11:45 M11:44
+patch 14bb M11:44 M11:43
+patch 14bb M11:43 M11:42
+patch 14bb M11:42 M11:41
+patch 14bb M11:41 M11:40
+patch 14bb M11:40 M11:39
+patch 14bb M11:39 M11:38
+patch 14bb M11:38 M11:37
+patch 14bb M11:37 M11:36
+patch 14bb M11:36 M11:35
+patch 14bb M11:35 M11:34
+patch 14bb M11:34 M11:33
+patch 14bb M11:33 M11:32
+patch 14bb M11:32 M11:31
+patch 14bb M11:31 M11:30
+patch 14bb M11:30 M11:29
+patch 14bb M11:29 M11:28
+patch 14bb M11:28 M11:27
+patch 14bb M11:27 M11:26
+patch 14bb M11:26 M11:25
+patch 14bb M11:25 M11:24
+patch 14bb M11:24 M11:23
+patch 14bb M11:23 M11:22
+patch 14bb M11:22 M11:21
+patch 14bb M11:21 M11:20
+patch 14bb M11:20 M11:19
+patch 14bb M11:19 M11:18
+patch 14bb M11:18 M11:17
+patch 14bb M11:17 M11:16
+patch 14bb M11:16 M11:15
+patch 14bb M11:15 M11:14
+patch 14bb M11:14 M11:13
+patch 14bb M11:13 M11:12
+patch 14bb M11:12 M11:11
+patch 14bb M11:11 M11:10
+patch 14bb M11:10 M11:9
+patch 14bb M11:9 M11:8
+patch 14bb M11:8 M11:7
+patch 14bb M11:7 M11:6
+patch 14bb M11:6 M11:5
+patch 14bb M11:5 M11:4
 patch 14bb M11:4 M11:3
 patch 14bb M11:3 M11:2
 patch 14bb M11:2 M11:1
 
-patch 14bb M11:1 M11:4
+patch 14bb M11:1 M11:78
 
 segment M12 {
   pdb ./frag_12.tmp.pdb
   }
+patch 14bb M12:78 M12:77
+patch 14bb M12:77 M12:76
+patch 14bb M12:76 M12:75
+patch 14bb M12:75 M12:74
+patch 14bb M12:74 M12:73
+patch 14bb M12:73 M12:72
+patch 14bb M12:72 M12:71
+patch 14bb M12:71 M12:70
+patch 14bb M12:70 M12:69
+patch 14bb M12:69 M12:68
+patch 14bb M12:68 M12:67
+patch 14bb M12:67 M12:66
+patch 14bb M12:66 M12:65
+patch 14bb M12:65 M12:64
+patch 14bb M12:64 M12:63
+patch 14bb M12:63 M12:62
+patch 14bb M12:62 M12:61
+patch 14bb M12:61 M12:60
+patch 14bb M12:60 M12:59
+patch 14bb M12:59 M12:58
+patch 14bb M12:58 M12:57
+patch 14bb M12:57 M12:56
+patch 14bb M12:56 M12:55
+patch 14bb M12:55 M12:54
+patch 14bb M12:54 M12:53
+patch 14bb M12:53 M12:52
+patch 14bb M12:52 M12:51
+patch 14bb M12:51 M12:50
+patch 14bb M12:50 M12:49
+patch 14bb M12:49 M12:48
+patch 14bb M12:48 M12:47
+patch 14bb M12:47 M12:46
+patch 14bb M12:46 M12:45
+patch 14bb M12:45 M12:44
+patch 14bb M12:44 M12:43
+patch 14bb M12:43 M12:42
+patch 14bb M12:42 M12:41
+patch 14bb M12:41 M12:40
+patch 14bb M12:40 M12:39
+patch 14bb M12:39 M12:38
+patch 14bb M12:38 M12:37
+patch 14bb M12:37 M12:36
+patch 14bb M12:36 M12:35
+patch 14bb M12:35 M12:34
+patch 14bb M12:34 M12:33
+patch 14bb M12:33 M12:32
+patch 14bb M12:32 M12:31
+patch 14bb M12:31 M12:30
+patch 14bb M12:30 M12:29
+patch 14bb M12:29 M12:28
+patch 14bb M12:28 M12:27
+patch 14bb M12:27 M12:26
+patch 14bb M12:26 M12:25
+patch 14bb M12:25 M12:24
+patch 14bb M12:24 M12:23
+patch 14bb M12:23 M12:22
+patch 14bb M12:22 M12:21
+patch 14bb M12:21 M12:20
+patch 14bb M12:20 M12:19
+patch 14bb M12:19 M12:18
+patch 14bb M12:18 M12:17
+patch 14bb M12:17 M12:16
+patch 14bb M12:16 M12:15
+patch 14bb M12:15 M12:14
+patch 14bb M12:14 M12:13
+patch 14bb M12:13 M12:12
+patch 14bb M12:12 M12:11
+patch 14bb M12:11 M12:10
+patch 14bb M12:10 M12:9
+patch 14bb M12:9 M12:8
+patch 14bb M12:8 M12:7
+patch 14bb M12:7 M12:6
+patch 14bb M12:6 M12:5
+patch 14bb M12:5 M12:4
 patch 14bb M12:4 M12:3
 patch 14bb M12:3 M12:2
 patch 14bb M12:2 M12:1
 
-patch 14bb M12:1 M12:4
+patch 14bb M12:1 M12:78
 
 segment M13 {
   pdb ./frag_13.tmp.pdb
   }
+patch 14bb M13:78 M13:77
+patch 14bb M13:77 M13:76
+patch 14bb M13:76 M13:75
+patch 14bb M13:75 M13:74
+patch 14bb M13:74 M13:73
+patch 14bb M13:73 M13:72
+patch 14bb M13:72 M13:71
+patch 14bb M13:71 M13:70
+patch 14bb M13:70 M13:69
+patch 14bb M13:69 M13:68
+patch 14bb M13:68 M13:67
+patch 14bb M13:67 M13:66
+patch 14bb M13:66 M13:65
+patch 14bb M13:65 M13:64
+patch 14bb M13:64 M13:63
+patch 14bb M13:63 M13:62
+patch 14bb M13:62 M13:61
+patch 14bb M13:61 M13:60
+patch 14bb M13:60 M13:59
+patch 14bb M13:59 M13:58
+patch 14bb M13:58 M13:57
+patch 14bb M13:57 M13:56
+patch 14bb M13:56 M13:55
+patch 14bb M13:55 M13:54
+patch 14bb M13:54 M13:53
+patch 14bb M13:53 M13:52
+patch 14bb M13:52 M13:51
+patch 14bb M13:51 M13:50
+patch 14bb M13:50 M13:49
+patch 14bb M13:49 M13:48
+patch 14bb M13:48 M13:47
+patch 14bb M13:47 M13:46
+patch 14bb M13:46 M13:45
+patch 14bb M13:45 M13:44
+patch 14bb M13:44 M13:43
+patch 14bb M13:43 M13:42
+patch 14bb M13:42 M13:41
+patch 14bb M13:41 M13:40
+patch 14bb M13:40 M13:39
+patch 14bb M13:39 M13:38
+patch 14bb M13:38 M13:37
+patch 14bb M13:37 M13:36
+patch 14bb M13:36 M13:35
+patch 14bb M13:35 M13:34
+patch 14bb M13:34 M13:33
+patch 14bb M13:33 M13:32
+patch 14bb M13:32 M13:31
+patch 14bb M13:31 M13:30
+patch 14bb M13:30 M13:29
+patch 14bb M13:29 M13:28
+patch 14bb M13:28 M13:27
+patch 14bb M13:27 M13:26
+patch 14bb M13:26 M13:25
+patch 14bb M13:25 M13:24
+patch 14bb M13:24 M13:23
+patch 14bb M13:23 M13:22
+patch 14bb M13:22 M13:21
+patch 14bb M13:21 M13:20
+patch 14bb M13:20 M13:19
+patch 14bb M13:19 M13:18
+patch 14bb M13:18 M13:17
+patch 14bb M13:17 M13:16
+patch 14bb M13:16 M13:15
+patch 14bb M13:15 M13:14
+patch 14bb M13:14 M13:13
+patch 14bb M13:13 M13:12
+patch 14bb M13:12 M13:11
+patch 14bb M13:11 M13:10
+patch 14bb M13:10 M13:9
+patch 14bb M13:9 M13:8
+patch 14bb M13:8 M13:7
+patch 14bb M13:7 M13:6
+patch 14bb M13:6 M13:5
+patch 14bb M13:5 M13:4
 patch 14bb M13:4 M13:3
 patch 14bb M13:3 M13:2
 patch 14bb M13:2 M13:1
 
-patch 14bb M13:1 M13:4
+patch 14bb M13:1 M13:78
 
 segment M14 {
   pdb ./frag_14.tmp.pdb
   }
+patch 14bb M14:78 M14:77
+patch 14bb M14:77 M14:76
+patch 14bb M14:76 M14:75
+patch 14bb M14:75 M14:74
+patch 14bb M14:74 M14:73
+patch 14bb M14:73 M14:72
+patch 14bb M14:72 M14:71
+patch 14bb M14:71 M14:70
+patch 14bb M14:70 M14:69
+patch 14bb M14:69 M14:68
+patch 14bb M14:68 M14:67
+patch 14bb M14:67 M14:66
+patch 14bb M14:66 M14:65
+patch 14bb M14:65 M14:64
+patch 14bb M14:64 M14:63
+patch 14bb M14:63 M14:62
+patch 14bb M14:62 M14:61
+patch 14bb M14:61 M14:60
+patch 14bb M14:60 M14:59
+patch 14bb M14:59 M14:58
+patch 14bb M14:58 M14:57
+patch 14bb M14:57 M14:56
+patch 14bb M14:56 M14:55
+patch 14bb M14:55 M14:54
+patch 14bb M14:54 M14:53
+patch 14bb M14:53 M14:52
+patch 14bb M14:52 M14:51
+patch 14bb M14:51 M14:50
+patch 14bb M14:50 M14:49
+patch 14bb M14:49 M14:48
+patch 14bb M14:48 M14:47
+patch 14bb M14:47 M14:46
+patch 14bb M14:46 M14:45
+patch 14bb M14:45 M14:44
+patch 14bb M14:44 M14:43
+patch 14bb M14:43 M14:42
+patch 14bb M14:42 M14:41
+patch 14bb M14:41 M14:40
+patch 14bb M14:40 M14:39
+patch 14bb M14:39 M14:38
+patch 14bb M14:38 M14:37
+patch 14bb M14:37 M14:36
+patch 14bb M14:36 M14:35
+patch 14bb M14:35 M14:34
+patch 14bb M14:34 M14:33
+patch 14bb M14:33 M14:32
+patch 14bb M14:32 M14:31
+patch 14bb M14:31 M14:30
+patch 14bb M14:30 M14:29
+patch 14bb M14:29 M14:28
+patch 14bb M14:28 M14:27
+patch 14bb M14:27 M14:26
+patch 14bb M14:26 M14:25
+patch 14bb M14:25 M14:24
+patch 14bb M14:24 M14:23
+patch 14bb M14:23 M14:22
+patch 14bb M14:22 M14:21
+patch 14bb M14:21 M14:20
+patch 14bb M14:20 M14:19
+patch 14bb M14:19 M14:18
+patch 14bb M14:18 M14:17
+patch 14bb M14:17 M14:16
+patch 14bb M14:16 M14:15
+patch 14bb M14:15 M14:14
+patch 14bb M14:14 M14:13
+patch 14bb M14:13 M14:12
+patch 14bb M14:12 M14:11
+patch 14bb M14:11 M14:10
+patch 14bb M14:10 M14:9
+patch 14bb M14:9 M14:8
+patch 14bb M14:8 M14:7
+patch 14bb M14:7 M14:6
+patch 14bb M14:6 M14:5
+patch 14bb M14:5 M14:4
 patch 14bb M14:4 M14:3
 patch 14bb M14:3 M14:2
 patch 14bb M14:2 M14:1
 
-patch 14bb M14:1 M14:4
+patch 14bb M14:1 M14:78
 
 segment M15 {
   pdb ./frag_15.tmp.pdb
   }
+patch 14bb M15:78 M15:77
+patch 14bb M15:77 M15:76
+patch 14bb M15:76 M15:75
+patch 14bb M15:75 M15:74
+patch 14bb M15:74 M15:73
+patch 14bb M15:73 M15:72
+patch 14bb M15:72 M15:71
+patch 14bb M15:71 M15:70
+patch 14bb M15:70 M15:69
+patch 14bb M15:69 M15:68
+patch 14bb M15:68 M15:67
+patch 14bb M15:67 M15:66
+patch 14bb M15:66 M15:65
+patch 14bb M15:65 M15:64
+patch 14bb M15:64 M15:63
+patch 14bb M15:63 M15:62
+patch 14bb M15:62 M15:61
+patch 14bb M15:61 M15:60
+patch 14bb M15:60 M15:59
+patch 14bb M15:59 M15:58
+patch 14bb M15:58 M15:57
+patch 14bb M15:57 M15:56
+patch 14bb M15:56 M15:55
+patch 14bb M15:55 M15:54
+patch 14bb M15:54 M15:53
+patch 14bb M15:53 M15:52
+patch 14bb M15:52 M15:51
+patch 14bb M15:51 M15:50
+patch 14bb M15:50 M15:49
+patch 14bb M15:49 M15:48
+patch 14bb M15:48 M15:47
+patch 14bb M15:47 M15:46
+patch 14bb M15:46 M15:45
+patch 14bb M15:45 M15:44
+patch 14bb M15:44 M15:43
+patch 14bb M15:43 M15:42
+patch 14bb M15:42 M15:41
+patch 14bb M15:41 M15:40
+patch 14bb M15:40 M15:39
+patch 14bb M15:39 M15:38
+patch 14bb M15:38 M15:37
+patch 14bb M15:37 M15:36
+patch 14bb M15:36 M15:35
+patch 14bb M15:35 M15:34
+patch 14bb M15:34 M15:33
+patch 14bb M15:33 M15:32
+patch 14bb M15:32 M15:31
+patch 14bb M15:31 M15:30
+patch 14bb M15:30 M15:29
+patch 14bb M15:29 M15:28
+patch 14bb M15:28 M15:27
+patch 14bb M15:27 M15:26
+patch 14bb M15:26 M15:25
+patch 14bb M15:25 M15:24
+patch 14bb M15:24 M15:23
+patch 14bb M15:23 M15:22
+patch 14bb M15:22 M15:21
+patch 14bb M15:21 M15:20
+patch 14bb M15:20 M15:19
+patch 14bb M15:19 M15:18
+patch 14bb M15:18 M15:17
+patch 14bb M15:17 M15:16
+patch 14bb M15:16 M15:15
+patch 14bb M15:15 M15:14
+patch 14bb M15:14 M15:13
+patch 14bb M15:13 M15:12
+patch 14bb M15:12 M15:11
+patch 14bb M15:11 M15:10
+patch 14bb M15:10 M15:9
+patch 14bb M15:9 M15:8
+patch 14bb M15:8 M15:7
+patch 14bb M15:7 M15:6
+patch 14bb M15:6 M15:5
+patch 14bb M15:5 M15:4
 patch 14bb M15:4 M15:3
 patch 14bb M15:3 M15:2
 patch 14bb M15:2 M15:1
 
-patch 14bb M15:1 M15:4
+patch 14bb M15:1 M15:78
 
 segment M16 {
   pdb ./frag_16.tmp.pdb
   }
+patch 14bb M16:78 M16:77
+patch 14bb M16:77 M16:76
+patch 14bb M16:76 M16:75
+patch 14bb M16:75 M16:74
+patch 14bb M16:74 M16:73
+patch 14bb M16:73 M16:72
+patch 14bb M16:72 M16:71
+patch 14bb M16:71 M16:70
+patch 14bb M16:70 M16:69
+patch 14bb M16:69 M16:68
+patch 14bb M16:68 M16:67
+patch 14bb M16:67 M16:66
+patch 14bb M16:66 M16:65
+patch 14bb M16:65 M16:64
+patch 14bb M16:64 M16:63
+patch 14bb M16:63 M16:62
+patch 14bb M16:62 M16:61
+patch 14bb M16:61 M16:60
+patch 14bb M16:60 M16:59
+patch 14bb M16:59 M16:58
+patch 14bb M16:58 M16:57
+patch 14bb M16:57 M16:56
+patch 14bb M16:56 M16:55
+patch 14bb M16:55 M16:54
+patch 14bb M16:54 M16:53
+patch 14bb M16:53 M16:52
+patch 14bb M16:52 M16:51
+patch 14bb M16:51 M16:50
+patch 14bb M16:50 M16:49
+patch 14bb M16:49 M16:48
+patch 14bb M16:48 M16:47
+patch 14bb M16:47 M16:46
+patch 14bb M16:46 M16:45
+patch 14bb M16:45 M16:44
+patch 14bb M16:44 M16:43
+patch 14bb M16:43 M16:42
+patch 14bb M16:42 M16:41
+patch 14bb M16:41 M16:40
+patch 14bb M16:40 M16:39
+patch 14bb M16:39 M16:38
+patch 14bb M16:38 M16:37
+patch 14bb M16:37 M16:36
+patch 14bb M16:36 M16:35
+patch 14bb M16:35 M16:34
+patch 14bb M16:34 M16:33
+patch 14bb M16:33 M16:32
+patch 14bb M16:32 M16:31
+patch 14bb M16:31 M16:30
+patch 14bb M16:30 M16:29
+patch 14bb M16:29 M16:28
+patch 14bb M16:28 M16:27
+patch 14bb M16:27 M16:26
+patch 14bb M16:26 M16:25
+patch 14bb M16:25 M16:24
+patch 14bb M16:24 M16:23
+patch 14bb M16:23 M16:22
+patch 14bb M16:22 M16:21
+patch 14bb M16:21 M16:20
+patch 14bb M16:20 M16:19
+patch 14bb M16:19 M16:18
+patch 14bb M16:18 M16:17
+patch 14bb M16:17 M16:16
+patch 14bb M16:16 M16:15
+patch 14bb M16:15 M16:14
+patch 14bb M16:14 M16:13
+patch 14bb M16:13 M16:12
+patch 14bb M16:12 M16:11
+patch 14bb M16:11 M16:10
+patch 14bb M16:10 M16:9
+patch 14bb M16:9 M16:8
+patch 14bb M16:8 M16:7
+patch 14bb M16:7 M16:6
+patch 14bb M16:6 M16:5
+patch 14bb M16:5 M16:4
 patch 14bb M16:4 M16:3
 patch 14bb M16:3 M16:2
 patch 14bb M16:2 M16:1
 
-patch 14bb M16:1 M16:4
+patch 14bb M16:1 M16:78
 
 segment M17 {
   pdb ./frag_17.tmp.pdb
   }
+patch 14bb M17:78 M17:77
+patch 14bb M17:77 M17:76
+patch 14bb M17:76 M17:75
+patch 14bb M17:75 M17:74
+patch 14bb M17:74 M17:73
+patch 14bb M17:73 M17:72
+patch 14bb M17:72 M17:71
+patch 14bb M17:71 M17:70
+patch 14bb M17:70 M17:69
+patch 14bb M17:69 M17:68
+patch 14bb M17:68 M17:67
+patch 14bb M17:67 M17:66
+patch 14bb M17:66 M17:65
+patch 14bb M17:65 M17:64
+patch 14bb M17:64 M17:63
+patch 14bb M17:63 M17:62
+patch 14bb M17:62 M17:61
+patch 14bb M17:61 M17:60
+patch 14bb M17:60 M17:59
+patch 14bb M17:59 M17:58
+patch 14bb M17:58 M17:57
+patch 14bb M17:57 M17:56
+patch 14bb M17:56 M17:55
+patch 14bb M17:55 M17:54
+patch 14bb M17:54 M17:53
+patch 14bb M17:53 M17:52
+patch 14bb M17:52 M17:51
+patch 14bb M17:51 M17:50
+patch 14bb M17:50 M17:49
+patch 14bb M17:49 M17:48
+patch 14bb M17:48 M17:47
+patch 14bb M17:47 M17:46
+patch 14bb M17:46 M17:45
+patch 14bb M17:45 M17:44
+patch 14bb M17:44 M17:43
+patch 14bb M17:43 M17:42
+patch 14bb M17:42 M17:41
+patch 14bb M17:41 M17:40
+patch 14bb M17:40 M17:39
+patch 14bb M17:39 M17:38
+patch 14bb M17:38 M17:37
+patch 14bb M17:37 M17:36
+patch 14bb M17:36 M17:35
+patch 14bb M17:35 M17:34
+patch 14bb M17:34 M17:33
+patch 14bb M17:33 M17:32
+patch 14bb M17:32 M17:31
+patch 14bb M17:31 M17:30
+patch 14bb M17:30 M17:29
+patch 14bb M17:29 M17:28
+patch 14bb M17:28 M17:27
+patch 14bb M17:27 M17:26
+patch 14bb M17:26 M17:25
+patch 14bb M17:25 M17:24
+patch 14bb M17:24 M17:23
+patch 14bb M17:23 M17:22
+patch 14bb M17:22 M17:21
+patch 14bb M17:21 M17:20
+patch 14bb M17:20 M17:19
+patch 14bb M17:19 M17:18
+patch 14bb M17:18 M17:17
+patch 14bb M17:17 M17:16
+patch 14bb M17:16 M17:15
+patch 14bb M17:15 M17:14
+patch 14bb M17:14 M17:13
+patch 14bb M17:13 M17:12
+patch 14bb M17:12 M17:11
+patch 14bb M17:11 M17:10
+patch 14bb M17:10 M17:9
+patch 14bb M17:9 M17:8
+patch 14bb M17:8 M17:7
+patch 14bb M17:7 M17:6
+patch 14bb M17:6 M17:5
+patch 14bb M17:5 M17:4
 patch 14bb M17:4 M17:3
 patch 14bb M17:3 M17:2
 patch 14bb M17:2 M17:1
 
-patch 14bb M17:1 M17:4
+patch 14bb M17:1 M17:78
 
 segment M18 {
   pdb ./frag_18.tmp.pdb
   }
+patch 14bb M18:78 M18:77
+patch 14bb M18:77 M18:76
+patch 14bb M18:76 M18:75
+patch 14bb M18:75 M18:74
+patch 14bb M18:74 M18:73
+patch 14bb M18:73 M18:72
+patch 14bb M18:72 M18:71
+patch 14bb M18:71 M18:70
+patch 14bb M18:70 M18:69
+patch 14bb M18:69 M18:68
+patch 14bb M18:68 M18:67
+patch 14bb M18:67 M18:66
+patch 14bb M18:66 M18:65
+patch 14bb M18:65 M18:64
+patch 14bb M18:64 M18:63
+patch 14bb M18:63 M18:62
+patch 14bb M18:62 M18:61
+patch 14bb M18:61 M18:60
+patch 14bb M18:60 M18:59
+patch 14bb M18:59 M18:58
+patch 14bb M18:58 M18:57
+patch 14bb M18:57 M18:56
+patch 14bb M18:56 M18:55
+patch 14bb M18:55 M18:54
+patch 14bb M18:54 M18:53
+patch 14bb M18:53 M18:52
+patch 14bb M18:52 M18:51
+patch 14bb M18:51 M18:50
+patch 14bb M18:50 M18:49
+patch 14bb M18:49 M18:48
+patch 14bb M18:48 M18:47
+patch 14bb M18:47 M18:46
+patch 14bb M18:46 M18:45
+patch 14bb M18:45 M18:44
+patch 14bb M18:44 M18:43
+patch 14bb M18:43 M18:42
+patch 14bb M18:42 M18:41
+patch 14bb M18:41 M18:40
+patch 14bb M18:40 M18:39
+patch 14bb M18:39 M18:38
+patch 14bb M18:38 M18:37
+patch 14bb M18:37 M18:36
+patch 14bb M18:36 M18:35
+patch 14bb M18:35 M18:34
+patch 14bb M18:34 M18:33
+patch 14bb M18:33 M18:32
+patch 14bb M18:32 M18:31
+patch 14bb M18:31 M18:30
+patch 14bb M18:30 M18:29
+patch 14bb M18:29 M18:28
+patch 14bb M18:28 M18:27
+patch 14bb M18:27 M18:26
+patch 14bb M18:26 M18:25
+patch 14bb M18:25 M18:24
+patch 14bb M18:24 M18:23
+patch 14bb M18:23 M18:22
+patch 14bb M18:22 M18:21
+patch 14bb M18:21 M18:20
+patch 14bb M18:20 M18:19
+patch 14bb M18:19 M18:18
+patch 14bb M18:18 M18:17
+patch 14bb M18:17 M18:16
+patch 14bb M18:16 M18:15
+patch 14bb M18:15 M18:14
+patch 14bb M18:14 M18:13
+patch 14bb M18:13 M18:12
+patch 14bb M18:12 M18:11
+patch 14bb M18:11 M18:10
+patch 14bb M18:10 M18:9
+patch 14bb M18:9 M18:8
+patch 14bb M18:8 M18:7
+patch 14bb M18:7 M18:6
+patch 14bb M18:6 M18:5
+patch 14bb M18:5 M18:4
 patch 14bb M18:4 M18:3
 patch 14bb M18:3 M18:2
 patch 14bb M18:2 M18:1
 
-patch 14bb M18:1 M18:4
+patch 14bb M18:1 M18:78
 
 segment M19 {
   pdb ./frag_19.tmp.pdb
   }
+patch 14bb M19:78 M19:77
+patch 14bb M19:77 M19:76
+patch 14bb M19:76 M19:75
+patch 14bb M19:75 M19:74
+patch 14bb M19:74 M19:73
+patch 14bb M19:73 M19:72
+patch 14bb M19:72 M19:71
+patch 14bb M19:71 M19:70
+patch 14bb M19:70 M19:69
+patch 14bb M19:69 M19:68
+patch 14bb M19:68 M19:67
+patch 14bb M19:67 M19:66
+patch 14bb M19:66 M19:65
+patch 14bb M19:65 M19:64
+patch 14bb M19:64 M19:63
+patch 14bb M19:63 M19:62
+patch 14bb M19:62 M19:61
+patch 14bb M19:61 M19:60
+patch 14bb M19:60 M19:59
+patch 14bb M19:59 M19:58
+patch 14bb M19:58 M19:57
+patch 14bb M19:57 M19:56
+patch 14bb M19:56 M19:55
+patch 14bb M19:55 M19:54
+patch 14bb M19:54 M19:53
+patch 14bb M19:53 M19:52
+patch 14bb M19:52 M19:51
+patch 14bb M19:51 M19:50
+patch 14bb M19:50 M19:49
+patch 14bb M19:49 M19:48
+patch 14bb M19:48 M19:47
+patch 14bb M19:47 M19:46
+patch 14bb M19:46 M19:45
+patch 14bb M19:45 M19:44
+patch 14bb M19:44 M19:43
+patch 14bb M19:43 M19:42
+patch 14bb M19:42 M19:41
+patch 14bb M19:41 M19:40
+patch 14bb M19:40 M19:39
+patch 14bb M19:39 M19:38
+patch 14bb M19:38 M19:37
+patch 14bb M19:37 M19:36
+patch 14bb M19:36 M19:35
+patch 14bb M19:35 M19:34
+patch 14bb M19:34 M19:33
+patch 14bb M19:33 M19:32
+patch 14bb M19:32 M19:31
+patch 14bb M19:31 M19:30
+patch 14bb M19:30 M19:29
+patch 14bb M19:29 M19:28
+patch 14bb M19:28 M19:27
+patch 14bb M19:27 M19:26
+patch 14bb M19:26 M19:25
+patch 14bb M19:25 M19:24
+patch 14bb M19:24 M19:23
+patch 14bb M19:23 M19:22
+patch 14bb M19:22 M19:21
+patch 14bb M19:21 M19:20
+patch 14bb M19:20 M19:19
+patch 14bb M19:19 M19:18
+patch 14bb M19:18 M19:17
+patch 14bb M19:17 M19:16
+patch 14bb M19:16 M19:15
+patch 14bb M19:15 M19:14
+patch 14bb M19:14 M19:13
+patch 14bb M19:13 M19:12
+patch 14bb M19:12 M19:11
+patch 14bb M19:11 M19:10
+patch 14bb M19:10 M19:9
+patch 14bb M19:9 M19:8
+patch 14bb M19:8 M19:7
+patch 14bb M19:7 M19:6
+patch 14bb M19:6 M19:5
+patch 14bb M19:5 M19:4
 patch 14bb M19:4 M19:3
 patch 14bb M19:3 M19:2
 patch 14bb M19:2 M19:1
 
-patch 14bb M19:1 M19:4
+patch 14bb M19:1 M19:78
 
 segment M20 {
   pdb ./frag_20.tmp.pdb
   }
+patch 14bb M20:78 M20:77
+patch 14bb M20:77 M20:76
+patch 14bb M20:76 M20:75
+patch 14bb M20:75 M20:74
+patch 14bb M20:74 M20:73
+patch 14bb M20:73 M20:72
+patch 14bb M20:72 M20:71
+patch 14bb M20:71 M20:70
+patch 14bb M20:70 M20:69
+patch 14bb M20:69 M20:68
+patch 14bb M20:68 M20:67
+patch 14bb M20:67 M20:66
+patch 14bb M20:66 M20:65
+patch 14bb M20:65 M20:64
+patch 14bb M20:64 M20:63
+patch 14bb M20:63 M20:62
+patch 14bb M20:62 M20:61
+patch 14bb M20:61 M20:60
+patch 14bb M20:60 M20:59
+patch 14bb M20:59 M20:58
+patch 14bb M20:58 M20:57
+patch 14bb M20:57 M20:56
+patch 14bb M20:56 M20:55
+patch 14bb M20:55 M20:54
+patch 14bb M20:54 M20:53
+patch 14bb M20:53 M20:52
+patch 14bb M20:52 M20:51
+patch 14bb M20:51 M20:50
+patch 14bb M20:50 M20:49
+patch 14bb M20:49 M20:48
+patch 14bb M20:48 M20:47
+patch 14bb M20:47 M20:46
+patch 14bb M20:46 M20:45
+patch 14bb M20:45 M20:44
+patch 14bb M20:44 M20:43
+patch 14bb M20:43 M20:42
+patch 14bb M20:42 M20:41
+patch 14bb M20:41 M20:40
+patch 14bb M20:40 M20:39
+patch 14bb M20:39 M20:38
+patch 14bb M20:38 M20:37
+patch 14bb M20:37 M20:36
+patch 14bb M20:36 M20:35
+patch 14bb M20:35 M20:34
+patch 14bb M20:34 M20:33
+patch 14bb M20:33 M20:32
+patch 14bb M20:32 M20:31
+patch 14bb M20:31 M20:30
+patch 14bb M20:30 M20:29
+patch 14bb M20:29 M20:28
+patch 14bb M20:28 M20:27
+patch 14bb M20:27 M20:26
+patch 14bb M20:26 M20:25
+patch 14bb M20:25 M20:24
+patch 14bb M20:24 M20:23
+patch 14bb M20:23 M20:22
+patch 14bb M20:22 M20:21
+patch 14bb M20:21 M20:20
+patch 14bb M20:20 M20:19
+patch 14bb M20:19 M20:18
+patch 14bb M20:18 M20:17
+patch 14bb M20:17 M20:16
+patch 14bb M20:16 M20:15
+patch 14bb M20:15 M20:14
+patch 14bb M20:14 M20:13
+patch 14bb M20:13 M20:12
+patch 14bb M20:12 M20:11
+patch 14bb M20:11 M20:10
+patch 14bb M20:10 M20:9
+patch 14bb M20:9 M20:8
+patch 14bb M20:8 M20:7
+patch 14bb M20:7 M20:6
+patch 14bb M20:6 M20:5
+patch 14bb M20:5 M20:4
 patch 14bb M20:4 M20:3
 patch 14bb M20:3 M20:2
 patch 14bb M20:2 M20:1
 
-patch 14bb M20:1 M20:4
+patch 14bb M20:1 M20:78
 
 segment M21 {
   pdb ./frag_21.tmp.pdb
   }
+patch 14bb M21:78 M21:77
+patch 14bb M21:77 M21:76
+patch 14bb M21:76 M21:75
+patch 14bb M21:75 M21:74
+patch 14bb M21:74 M21:73
+patch 14bb M21:73 M21:72
+patch 14bb M21:72 M21:71
+patch 14bb M21:71 M21:70
+patch 14bb M21:70 M21:69
+patch 14bb M21:69 M21:68
+patch 14bb M21:68 M21:67
+patch 14bb M21:67 M21:66
+patch 14bb M21:66 M21:65
+patch 14bb M21:65 M21:64
+patch 14bb M21:64 M21:63
+patch 14bb M21:63 M21:62
+patch 14bb M21:62 M21:61
+patch 14bb M21:61 M21:60
+patch 14bb M21:60 M21:59
+patch 14bb M21:59 M21:58
+patch 14bb M21:58 M21:57
+patch 14bb M21:57 M21:56
+patch 14bb M21:56 M21:55
+patch 14bb M21:55 M21:54
+patch 14bb M21:54 M21:53
+patch 14bb M21:53 M21:52
+patch 14bb M21:52 M21:51
+patch 14bb M21:51 M21:50
+patch 14bb M21:50 M21:49
+patch 14bb M21:49 M21:48
+patch 14bb M21:48 M21:47
+patch 14bb M21:47 M21:46
+patch 14bb M21:46 M21:45
+patch 14bb M21:45 M21:44
+patch 14bb M21:44 M21:43
+patch 14bb M21:43 M21:42
+patch 14bb M21:42 M21:41
+patch 14bb M21:41 M21:40
+patch 14bb M21:40 M21:39
+patch 14bb M21:39 M21:38
+patch 14bb M21:38 M21:37
+patch 14bb M21:37 M21:36
+patch 14bb M21:36 M21:35
+patch 14bb M21:35 M21:34
+patch 14bb M21:34 M21:33
+patch 14bb M21:33 M21:32
+patch 14bb M21:32 M21:31
+patch 14bb M21:31 M21:30
+patch 14bb M21:30 M21:29
+patch 14bb M21:29 M21:28
+patch 14bb M21:28 M21:27
+patch 14bb M21:27 M21:26
+patch 14bb M21:26 M21:25
+patch 14bb M21:25 M21:24
+patch 14bb M21:24 M21:23
+patch 14bb M21:23 M21:22
+patch 14bb M21:22 M21:21
+patch 14bb M21:21 M21:20
+patch 14bb M21:20 M21:19
+patch 14bb M21:19 M21:18
+patch 14bb M21:18 M21:17
+patch 14bb M21:17 M21:16
+patch 14bb M21:16 M21:15
+patch 14bb M21:15 M21:14
+patch 14bb M21:14 M21:13
+patch 14bb M21:13 M21:12
+patch 14bb M21:12 M21:11
+patch 14bb M21:11 M21:10
+patch 14bb M21:10 M21:9
+patch 14bb M21:9 M21:8
+patch 14bb M21:8 M21:7
+patch 14bb M21:7 M21:6
+patch 14bb M21:6 M21:5
+patch 14bb M21:5 M21:4
 patch 14bb M21:4 M21:3
 patch 14bb M21:3 M21:2
 patch 14bb M21:2 M21:1
 
-patch 14bb M21:1 M21:4
+patch 14bb M21:1 M21:78
 
 segment M22 {
   pdb ./frag_22.tmp.pdb
   }
+patch 14bb M22:78 M22:77
+patch 14bb M22:77 M22:76
+patch 14bb M22:76 M22:75
+patch 14bb M22:75 M22:74
+patch 14bb M22:74 M22:73
+patch 14bb M22:73 M22:72
+patch 14bb M22:72 M22:71
+patch 14bb M22:71 M22:70
+patch 14bb M22:70 M22:69
+patch 14bb M22:69 M22:68
+patch 14bb M22:68 M22:67
+patch 14bb M22:67 M22:66
+patch 14bb M22:66 M22:65
+patch 14bb M22:65 M22:64
+patch 14bb M22:64 M22:63
+patch 14bb M22:63 M22:62
+patch 14bb M22:62 M22:61
+patch 14bb M22:61 M22:60
+patch 14bb M22:60 M22:59
+patch 14bb M22:59 M22:58
+patch 14bb M22:58 M22:57
+patch 14bb M22:57 M22:56
+patch 14bb M22:56 M22:55
+patch 14bb M22:55 M22:54
+patch 14bb M22:54 M22:53
+patch 14bb M22:53 M22:52
+patch 14bb M22:52 M22:51
+patch 14bb M22:51 M22:50
+patch 14bb M22:50 M22:49
+patch 14bb M22:49 M22:48
+patch 14bb M22:48 M22:47
+patch 14bb M22:47 M22:46
+patch 14bb M22:46 M22:45
+patch 14bb M22:45 M22:44
+patch 14bb M22:44 M22:43
+patch 14bb M22:43 M22:42
+patch 14bb M22:42 M22:41
+patch 14bb M22:41 M22:40
+patch 14bb M22:40 M22:39
+patch 14bb M22:39 M22:38
+patch 14bb M22:38 M22:37
+patch 14bb M22:37 M22:36
+patch 14bb M22:36 M22:35
+patch 14bb M22:35 M22:34
+patch 14bb M22:34 M22:33
+patch 14bb M22:33 M22:32
+patch 14bb M22:32 M22:31
+patch 14bb M22:31 M22:30
+patch 14bb M22:30 M22:29
+patch 14bb M22:29 M22:28
+patch 14bb M22:28 M22:27
+patch 14bb M22:27 M22:26
+patch 14bb M22:26 M22:25
+patch 14bb M22:25 M22:24
+patch 14bb M22:24 M22:23
+patch 14bb M22:23 M22:22
+patch 14bb M22:22 M22:21
+patch 14bb M22:21 M22:20
+patch 14bb M22:20 M22:19
+patch 14bb M22:19 M22:18
+patch 14bb M22:18 M22:17
+patch 14bb M22:17 M22:16
+patch 14bb M22:16 M22:15
+patch 14bb M22:15 M22:14
+patch 14bb M22:14 M22:13
+patch 14bb M22:13 M22:12
+patch 14bb M22:12 M22:11
+patch 14bb M22:11 M22:10
+patch 14bb M22:10 M22:9
+patch 14bb M22:9 M22:8
+patch 14bb M22:8 M22:7
+patch 14bb M22:7 M22:6
+patch 14bb M22:6 M22:5
+patch 14bb M22:5 M22:4
 patch 14bb M22:4 M22:3
 patch 14bb M22:3 M22:2
 patch 14bb M22:2 M22:1
 
-patch 14bb M22:1 M22:4
+patch 14bb M22:1 M22:78
 
 segment M23 {
   pdb ./frag_23.tmp.pdb
   }
+patch 14bb M23:78 M23:77
+patch 14bb M23:77 M23:76
+patch 14bb M23:76 M23:75
+patch 14bb M23:75 M23:74
+patch 14bb M23:74 M23:73
+patch 14bb M23:73 M23:72
+patch 14bb M23:72 M23:71
+patch 14bb M23:71 M23:70
+patch 14bb M23:70 M23:69
+patch 14bb M23:69 M23:68
+patch 14bb M23:68 M23:67
+patch 14bb M23:67 M23:66
+patch 14bb M23:66 M23:65
+patch 14bb M23:65 M23:64
+patch 14bb M23:64 M23:63
+patch 14bb M23:63 M23:62
+patch 14bb M23:62 M23:61
+patch 14bb M23:61 M23:60
+patch 14bb M23:60 M23:59
+patch 14bb M23:59 M23:58
+patch 14bb M23:58 M23:57
+patch 14bb M23:57 M23:56
+patch 14bb M23:56 M23:55
+patch 14bb M23:55 M23:54
+patch 14bb M23:54 M23:53
+patch 14bb M23:53 M23:52
+patch 14bb M23:52 M23:51
+patch 14bb M23:51 M23:50
+patch 14bb M23:50 M23:49
+patch 14bb M23:49 M23:48
+patch 14bb M23:48 M23:47
+patch 14bb M23:47 M23:46
+patch 14bb M23:46 M23:45
+patch 14bb M23:45 M23:44
+patch 14bb M23:44 M23:43
+patch 14bb M23:43 M23:42
+patch 14bb M23:42 M23:41
+patch 14bb M23:41 M23:40
+patch 14bb M23:40 M23:39
+patch 14bb M23:39 M23:38
+patch 14bb M23:38 M23:37
+patch 14bb M23:37 M23:36
+patch 14bb M23:36 M23:35
+patch 14bb M23:35 M23:34
+patch 14bb M23:34 M23:33
+patch 14bb M23:33 M23:32
+patch 14bb M23:32 M23:31
+patch 14bb M23:31 M23:30
+patch 14bb M23:30 M23:29
+patch 14bb M23:29 M23:28
+patch 14bb M23:28 M23:27
+patch 14bb M23:27 M23:26
+patch 14bb M23:26 M23:25
+patch 14bb M23:25 M23:24
+patch 14bb M23:24 M23:23
+patch 14bb M23:23 M23:22
+patch 14bb M23:22 M23:21
+patch 14bb M23:21 M23:20
+patch 14bb M23:20 M23:19
+patch 14bb M23:19 M23:18
+patch 14bb M23:18 M23:17
+patch 14bb M23:17 M23:16
+patch 14bb M23:16 M23:15
+patch 14bb M23:15 M23:14
+patch 14bb M23:14 M23:13
+patch 14bb M23:13 M23:12
+patch 14bb M23:12 M23:11
+patch 14bb M23:11 M23:10
+patch 14bb M23:10 M23:9
+patch 14bb M23:9 M23:8
+patch 14bb M23:8 M23:7
+patch 14bb M23:7 M23:6
+patch 14bb M23:6 M23:5
+patch 14bb M23:5 M23:4
 patch 14bb M23:4 M23:3
 patch 14bb M23:3 M23:2
 patch 14bb M23:2 M23:1
 
-patch 14bb M23:1 M23:4
-
-segment M24 {
-  pdb ./frag_24.tmp.pdb
-  }
-patch 14bb M24:4 M24:3
-patch 14bb M24:3 M24:2
-patch 14bb M24:2 M24:1
-
-patch 14bb M24:1 M24:4
-
-segment M25 {
-  pdb ./frag_25.tmp.pdb
-  }
-patch 14bb M25:4 M25:3
-patch 14bb M25:3 M25:2
-patch 14bb M25:2 M25:1
-
-patch 14bb M25:1 M25:4
-
-segment M26 {
-  pdb ./frag_26.tmp.pdb
-  }
-patch 14bb M26:4 M26:3
-patch 14bb M26:3 M26:2
-patch 14bb M26:2 M26:1
-
-patch 14bb M26:1 M26:4
-
-segment M27 {
-  pdb ./frag_27.tmp.pdb
-  }
-patch 14bb M27:4 M27:3
-patch 14bb M27:3 M27:2
-patch 14bb M27:2 M27:1
-
-patch 14bb M27:1 M27:4
-
-segment M28 {
-  pdb ./frag_28.tmp.pdb
-  }
-patch 14bb M28:4 M28:3
-patch 14bb M28:3 M28:2
-patch 14bb M28:2 M28:1
-
-patch 14bb M28:1 M28:4
-
-segment M29 {
-  pdb ./frag_29.tmp.pdb
-  }
-patch 14bb M29:4 M29:3
-patch 14bb M29:3 M29:2
-patch 14bb M29:2 M29:1
-
-patch 14bb M29:1 M29:4
-
-segment M30 {
-  pdb ./frag_30.tmp.pdb
-  }
-patch 14bb M30:4 M30:3
-patch 14bb M30:3 M30:2
-patch 14bb M30:2 M30:1
-
-patch 14bb M30:1 M30:4
-
-segment M31 {
-  pdb ./frag_31.tmp.pdb
-  }
-patch 14bb M31:4 M31:3
-patch 14bb M31:3 M31:2
-patch 14bb M31:2 M31:1
-
-patch 14bb M31:1 M31:4
-
-segment M32 {
-  pdb ./frag_32.tmp.pdb
-  }
-patch 14bb M32:4 M32:3
-patch 14bb M32:3 M32:2
-patch 14bb M32:2 M32:1
-
-patch 14bb M32:1 M32:4
-
-segment M33 {
-  pdb ./frag_33.tmp.pdb
-  }
-patch 14bb M33:4 M33:3
-patch 14bb M33:3 M33:2
-patch 14bb M33:2 M33:1
-
-patch 14bb M33:1 M33:4
-
-segment M34 {
-  pdb ./frag_34.tmp.pdb
-  }
-patch 14bb M34:4 M34:3
-patch 14bb M34:3 M34:2
-patch 14bb M34:2 M34:1
-
-patch 14bb M34:1 M34:4
-
-segment M35 {
-  pdb ./frag_35.tmp.pdb
-  }
-patch 14bb M35:4 M35:3
-patch 14bb M35:3 M35:2
-patch 14bb M35:2 M35:1
-
-patch 14bb M35:1 M35:4
-
-segment M36 {
-  pdb ./frag_36.tmp.pdb
-  }
-patch 14bb M36:4 M36:3
-patch 14bb M36:3 M36:2
-patch 14bb M36:2 M36:1
-
-patch 14bb M36:1 M36:4
-
-segment M37 {
-  pdb ./frag_37.tmp.pdb
-  }
-patch 14bb M37:4 M37:3
-patch 14bb M37:3 M37:2
-patch 14bb M37:2 M37:1
-
-patch 14bb M37:1 M37:4
-
-segment M38 {
-  pdb ./frag_38.tmp.pdb
-  }
-patch 14bb M38:4 M38:3
-patch 14bb M38:3 M38:2
-patch 14bb M38:2 M38:1
-
-patch 14bb M38:1 M38:4
-
-segment M39 {
-  pdb ./frag_39.tmp.pdb
-  }
-patch 14bb M39:4 M39:3
-patch 14bb M39:3 M39:2
-patch 14bb M39:2 M39:1
-
-patch 14bb M39:1 M39:4
-
-segment M40 {
-  pdb ./frag_40.tmp.pdb
-  }
-patch 14bb M40:4 M40:3
-patch 14bb M40:3 M40:2
-patch 14bb M40:2 M40:1
-
-patch 14bb M40:1 M40:4
-
-segment M41 {
-  pdb ./frag_41.tmp.pdb
-  }
-patch 14bb M41:4 M41:3
-patch 14bb M41:3 M41:2
-patch 14bb M41:2 M41:1
-
-patch 14bb M41:1 M41:4
-
-segment M42 {
-  pdb ./frag_42.tmp.pdb
-  }
-patch 14bb M42:4 M42:3
-patch 14bb M42:3 M42:2
-patch 14bb M42:2 M42:1
-
-patch 14bb M42:1 M42:4
-
-segment M43 {
-  pdb ./frag_43.tmp.pdb
-  }
-patch 14bb M43:4 M43:3
-patch 14bb M43:3 M43:2
-patch 14bb M43:2 M43:1
-
-patch 14bb M43:1 M43:4
-
-segment M44 {
-  pdb ./frag_44.tmp.pdb
-  }
-patch 14bb M44:4 M44:3
-patch 14bb M44:3 M44:2
-patch 14bb M44:2 M44:1
-
-patch 14bb M44:1 M44:4
-
-segment M45 {
-  pdb ./frag_45.tmp.pdb
-  }
-patch 14bb M45:4 M45:3
-patch 14bb M45:3 M45:2
-patch 14bb M45:2 M45:1
-
-patch 14bb M45:1 M45:4
-
-segment M46 {
-  pdb ./frag_46.tmp.pdb
-  }
-patch 14bb M46:4 M46:3
-patch 14bb M46:3 M46:2
-patch 14bb M46:2 M46:1
-
-patch 14bb M46:1 M46:4
-
-segment M47 {
-  pdb ./frag_47.tmp.pdb
-  }
-patch 14bb M47:4 M47:3
-patch 14bb M47:3 M47:2
-patch 14bb M47:2 M47:1
-
-patch 14bb M47:1 M47:4
-
-segment M48 {
-  pdb ./frag_48.tmp.pdb
-  }
-patch 14bb M48:4 M48:3
-patch 14bb M48:3 M48:2
-patch 14bb M48:2 M48:1
-
-patch 14bb M48:1 M48:4
-
-segment M49 {
-  pdb ./frag_49.tmp.pdb
-  }
-patch 14bb M49:4 M49:3
-patch 14bb M49:3 M49:2
-patch 14bb M49:2 M49:1
-
-patch 14bb M49:1 M49:4
+patch 14bb M23:1 M23:78
 
 regenerate angles dihedrals
 
@@ -477,32 +2019,6 @@ coordpdb frag_20.tmp.pdb M20
 coordpdb frag_21.tmp.pdb M21
 coordpdb frag_22.tmp.pdb M22
 coordpdb frag_23.tmp.pdb M23
-coordpdb frag_24.tmp.pdb M24
-coordpdb frag_25.tmp.pdb M25
-coordpdb frag_26.tmp.pdb M26
-coordpdb frag_27.tmp.pdb M27
-coordpdb frag_28.tmp.pdb M28
-coordpdb frag_29.tmp.pdb M29
-coordpdb frag_30.tmp.pdb M30
-coordpdb frag_31.tmp.pdb M31
-coordpdb frag_32.tmp.pdb M32
-coordpdb frag_33.tmp.pdb M33
-coordpdb frag_34.tmp.pdb M34
-coordpdb frag_35.tmp.pdb M35
-coordpdb frag_36.tmp.pdb M36
-coordpdb frag_37.tmp.pdb M37
-coordpdb frag_38.tmp.pdb M38
-coordpdb frag_39.tmp.pdb M39
-coordpdb frag_40.tmp.pdb M40
-coordpdb frag_41.tmp.pdb M41
-coordpdb frag_42.tmp.pdb M42
-coordpdb frag_43.tmp.pdb M43
-coordpdb frag_44.tmp.pdb M44
-coordpdb frag_45.tmp.pdb M45
-coordpdb frag_46.tmp.pdb M46
-coordpdb frag_47.tmp.pdb M47
-coordpdb frag_48.tmp.pdb M48
-coordpdb frag_49.tmp.pdb M49
 
 guesscoord
 writepsf crystal.psf
